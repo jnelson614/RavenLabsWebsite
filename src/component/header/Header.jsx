@@ -62,9 +62,9 @@ class Header extends Component{
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
-                                <li><Link to="#">Home</Link>
+                                <li><Link to="/">Home</Link>
                                 </li>
-                                <li className="has-droupdown"><Link to="/services" >Services</Link>
+                                <li className="has-droupdown"><Link to="#" >Services</Link>
                                     <ul className="submenu">
                                         <li><Link to="/contact">Services</Link></li>
                                         <li><Link to="/contact">Mechanical Design</Link></li>
