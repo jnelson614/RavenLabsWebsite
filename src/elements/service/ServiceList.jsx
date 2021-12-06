@@ -29,12 +29,12 @@ const ServiceList = [
     {
         icon: <FaTools />,
         title: 'Prototyping',
-        description: 'Your idea becomes a reality.'
+        description: 'Taking any idea and making it a reality.'
     },
     { 
         icon: <MdSettingsInputAntenna />,
         title: 'Helium',
-        description: 'Wireless network for any of your IoT needs.'
+        description: 'Wireless network built for any IoT Solution'
     }
 ]
 
