@@ -1,0 +1,70 @@
+[1mdiff --git a/public/assets/scss/elements/_service.scss b/public/assets/scss/elements/_service.scss[m
+[1mindex f814e29..3dffb25 100644[m
+[1m--- a/public/assets/scss/elements/_service.scss[m
+[1m+++ b/public/assets/scss/elements/_service.scss[m
+[36m@@ -57,18 +57,23 @@[m
+         padding: 30px 35px;[m
+         @extend %transition;[m
+         @extend %posrelative;[m
+[32m+[m[32m        width: 1000;[m
+         z-index: 2;[m
+         border-radius: 10px;[m
+         @media #{$laptop-device} {[m
+[32m+[m[32m            width: 100;[m
+             padding: 30px 28px;[m
+         }[m
+         @media #{$md-layout} {[m
+[32m+[m[32m            width: 100;[m
+             padding: 30px 25px;[m
+         }[m
+         @media #{$sm-layout} {[m
+[32m+[m[32m            width: 100;[m
+             padding: 30px 14px;[m
+         }[m
+         @media #{$large-mobile} {[m
+[32m+[m[32m            width: 100;[m
+             padding: 30px 18px;[m
+             margin-top: 30px;[m
+         }[m
+[36m@@ -112,6 +117,7 @@[m
+             h3 {[m
+                 &.title {[m
+                     margin-bottom: 19px;[m
+[32m+[m[32m                    width: 100;[m
+                     font-weight: 500;[m
+                     @extend %transition;[m
+                     @media #{$laptop-device} {[m
+[36m@@ -168,6 +174,7 @@[m
+ [m
+         &.service-left-align {[m
+             display: flex;[m
+[32m+[m[32m            width: 100;[m
+             padding: 50px 24px;[m
+             .icon {[m
+                 padding-right: 20px;[m
+[1mdiff --git a/src/elements/About.jsx b/src/elements/About.jsx[m
+[1mindex 47a6544..4dc305f 100644[m
+[1m--- a/src/elements/About.jsx[m
+[1m+++ b/src/elements/About.jsx[m
+[36m@@ -97,7 +97,7 @@[m [mclass About extends Component{[m
+                                     </div>[m
+                                     <div className="content">[m
+                                         <h4 className="title">Grant Peret</h4>[m
+[31m-                                        <p className="designation">CEO/Mechanical Engineerr</p>[m
+[32m+[m[32m                                        <p className="designation">CEO/Mechanical Engineer</p>[m
+                                     </div>[m
+                                     <ul className="social-icon" >[m
+                                         <li><a href="https://www.facebook.com/grant.peret"><FaFacebookF /></a></li>[m
+[1mdiff --git a/src/elements/service/ServiceList.jsx b/src/elements/service/ServiceList.jsx[m
+[1mindex 9dcc9c9..459fc4c 100644[m
+[1m--- a/src/elements/service/ServiceList.jsx[m
+[1m+++ b/src/elements/service/ServiceList.jsx[m
+[36m@@ -33,7 +33,7 @@[m [mconst ServiceList = [[m
+     { [m
+         icon: <MdSettingsInputAntenna />,[m
+         title: 'Helium',[m
+[31m-        description: 'Wirless netwrok for any of you IoT needs.'[m
+[32m+[m[32m        description: 'Wireless network for any of you IoT needs.'[m
+     }[m
+ ][m
+ [m

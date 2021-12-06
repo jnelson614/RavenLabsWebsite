@@ -3,12 +3,13 @@ import { FiMonitor } from "react-icons/fi";
 import { GiGears, GiCircuitry } from "react-icons/gi";
 import { FaTools, FaSyringe } from "react-icons/fa";
 import { MdSettingsInputAntenna } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 const ServiceList = [
     {
         icon: <GiGears />,
         title: 'Mechanical Design',
-        description: 'The greatest Mechanical desinger that ever existed!'
+        description: 'The greatest mechanical designer that ever existed!'
     },
     {
         icon: <GiCircuitry />,
@@ -23,17 +24,17 @@ const ServiceList = [
     { 
         icon: <FaSyringe />,
         title: 'Medical Devices',
-        description: 'Curing Polio and AIDs.'
+        description: 'On the cutting edge of developing live saving devices.'
     },
     {
         icon: <FaTools />,
         title: 'Prototyping',
-        description: 'Your idea becomes a relaity.'
+        description: 'Your idea becomes a reality.'
     },
     { 
         icon: <MdSettingsInputAntenna />,
         title: 'Helium',
-        description: 'Wireless network for any of you IoT needs.'
+        description: 'Wireless network for any of your IoT needs.'
     }
 ]
 
@@ -48,7 +49,7 @@ class ServiceThree extends Component{
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href="/service-details">
+                            <Link to="/coming-soon">
                                 <div className="service service__style--2">
                                     <div className="icon">
                                         {val.icon}
@@ -58,7 +59,7 @@ class ServiceThree extends Component{
                                         <p>{val.description}</p>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     ))}
                 </div>

@@ -66,41 +66,41 @@ class Header extends Component{
                                 </li>
                                 <li className="has-droupdown"><Link to="#" >Services</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/contact">Services</Link></li>
-                                        <li><Link to="/contact">Mechanical Design</Link></li>
-                                        <li><Link to="/contact">Prototyping</Link></li>
-                                        <li><Link to="/contact">Manufacturing</Link></li>
-                                        <li><Link to="/contact">CAD Modeling</Link></li>
-                                        <li><Link to="/contact">Software</Link></li>
-                                        <li><Link to="/contact">Embedded</Link></li>
-                                        <li><Link to="/contact">Front End Applications</Link></li>
-                                        <li><Link to="/contact">Dev Ops/IT Infrastructure</Link></li>
-                                        <li><Link to="/contact">UI/UX Design</Link></li>
+                                        <li><Link to="/coming-soon">Services</Link></li>
+                                        <li><Link to="/coming-soon">Mechanical Design</Link></li>
+                                        <li><Link to="/coming-soon">Prototyping</Link></li>
+                                        <li><Link to="/coming-soon">Manufacturing</Link></li>
+                                        <li><Link to="/coming-soon">CAD Modeling</Link></li>
+                                        <li><Link to="/coming-soon">Software</Link></li>
+                                        <li><Link to="/coming-soon">Embedded</Link></li>
+                                        <li><Link to="/coming-soon">Front End Applications</Link></li>
+                                        <li><Link to="/coming-soon">Dev Ops/IT Infrastructure</Link></li>
+                                        <li><Link to="/coming-soon">UI/UX Design</Link></li>
                                     </ul>
                                 </li>
                                 <li className="has-droupdown"><Link to="#" >Projects</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/contact">RX Imager</Link></li>
-                                        <li><Link to="/contact">Monochrometer</Link></li>
-                                        <li><Link to="/contact">Particle Accelerator</Link></li>
-                                        <li><Link to="/contact">Kinex</Link></li>
-                                        <li><Link to="/contact">Medical Devices</Link></li>
+                                        <li><Link to="/coming-soon">RX Imager</Link></li>
+                                        <li><Link to="/coming-soon">Monochrometer</Link></li>
+                                        <li><Link to="/coming-soon">Particle Accelerator</Link></li>
+                                        <li><Link to="/coming-soon">Kinex</Link></li>
+                                        <li><Link to="/coming-soon">Medical Devices</Link></li>
                                         
                                     </ul>
                                 </li>
 
                                 <li className="has-droupdown"><Link to="#" >Community</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/contact">Cat Alley</Link></li>
-                                        <li><Link to="/contact">Ryan??</Link></li>
+                                        <li><Link to="/coming-soon">Cat Alley</Link></li>
+                                        <li><Link to="/coming-soon">Ryan??</Link></li>
                                     </ul>
                                 </li>
 
                                 <li className="has-droupdown"><Link to="#" >Helium</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/contact">Consulting</Link></li>
-                                        <li><Link to="/contact">Infrastructure</Link></li>
-                                        <li><Link to="/contact">IoT Devices</Link></li>
+                                        <li><Link to="/coming-soon">Consulting</Link></li>
+                                        <li><Link to="/coming-soon">Infrastructure</Link></li>
+                                        <li><Link to="/coming-soon">IoT Devices</Link></li>
                                     </ul>
                                 </li>
                                 <li><Link to="/about" >About</Link></li>
