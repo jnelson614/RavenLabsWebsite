@@ -85,10 +85,10 @@ font-family: 'Poppins', sans-serif;
 }
 
 .theme-gradient {
-    background: rgb(248,31,1);
-    background: -moz-linear-gradient(145deg,  rgba(248,31,1,1) 0%, rgba(238,7,110,1) 100%);
-    background: -webkit-linear-gradient(145deg,  rgba(248,31,1,1) 0%,rgba(238,7,110,1) 100%);
-    background: linear-gradient(145deg,  rgba(248,31,1,1) 0%,rgba(238,7,110,1) 100%);
+    background: #3e20c4;
+    background: -moz-linear-gradient(145deg,  #3e20c4 0%, #7154f1 100%);
+    background: -webkit-linear-gradient(145deg,  #3e20c4 0%,#7154f1 100%);
+    background: linear-gradient(145deg,  #3e20c4 0%,#7154f1 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f81f01', endColorstr='#ee076e',GradientType=1 );
 }
 

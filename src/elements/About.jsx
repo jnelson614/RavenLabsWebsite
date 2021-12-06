@@ -14,7 +14,7 @@ import FooterTwo from "../component/footer/FooterTwo";
 class About extends Component{
     render(){
         let title = 'About Us',
-        description = 'Founded in 2019 by Grant Peret, Raven Labs started off in the basement of Grants childhood house 3D printing and modeling components for a few clients. After landing bigger and bigger clients, and with the addition of Jeff Nelson and Bob Peret in 2021, Raven Labs grew to a company offering services from mechanical design to software engineering in a wide variety of fields including automation and medical devices. Raven Labs is now established in the heart of Manchester, NH. '
+        description = 'Founded in 2019 by Grant Peret, Raven Labs started off in the basement of Grants childhood house 3D printing and modeling components for a few clients. After landing bigger and bigger clients, and with the addition of Jeff Nelson and Bob Peret in 2021, Raven Labs grew to a company offering services from mechanical design to software engineering ranging from automated warehouse solutions to medical devices. Raven Labs is now established in the heart of Manchester, NH. '
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />

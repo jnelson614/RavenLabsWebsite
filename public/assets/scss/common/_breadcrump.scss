@@ -12,8 +12,8 @@
     text-align: center;
     h2{
         &.title{
-            background: #f81f01;
-            background: linear-gradient(145deg, #f81f01 0%, #ee076e 100%);
+            background: #3e20c4;
+            background: linear-gradient(145deg, #3e20c4 0%, #7154f1 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -29,7 +29,7 @@
                 }
                 &.breadcrumb-item{
                     &.active{
-                        color: #f10;
+                        color: #3e20c4;
                     }
                 }
             }
