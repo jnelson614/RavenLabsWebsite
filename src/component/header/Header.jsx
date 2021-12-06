@@ -45,7 +45,7 @@ class Header extends Component{
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
         }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+            logoUrl = <img width="300" src="/assets/images/logo/logo-white-purple.png" alt="Digital Agency" />;
         }
 
         
@@ -62,63 +62,51 @@ class Header extends Component{
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
-                                <li className="has-droupdown"><Link to="#">Home</Link>
+                                <li><Link to="#">Home</Link>
+                                </li>
+                                <li className="has-droupdown"><Link to="/services" >Services</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/main-demo">Main Demo</Link></li>
-                                        <li><Link to="/dark-main-demo">Main Demo Dark</Link></li>
-                                        <li><Link to="/creative-agency">Creative Agency</Link></li>
-                                        <li><Link to="/creative-landing">Creative One Page</Link></li>
-                                        <li><Link to="/creative-portfolio">Creative Portfolio</Link></li>
-                                        <li><Link to="/personal-portfolio">Personal Portfolio</Link></li>
-                                        <li><Link to="/portfolio-landing">Portfolio One Page</Link></li>
-                                        <li><Link to="/dark-portfolio-landing">Portfolio One Page 02</Link></li>
-                                        <li><Link to="/digital-agency">Digital Agency</Link></li>
-                                        <li><Link to="/startup">Startup</Link></li>
-                                        <li><Link to="/paralax">Paralax</Link></li>
-                                        <li><Link to="/portfolio-home">Minimal Portfolio</Link></li>
-                                        <li><Link to="/business">Business</Link></li>
-                                        <li><Link to="/home-particles">Home Particles</Link></li>
-                                        <li><Link to="/studio-agency">Studio Agency</Link></li>
-                                        <li><Link to="/designer-portfolio">Designer Portfolio</Link></li>
-                                        <li><Link to="/interactive-agency">Interactive Agency</Link></li>
+                                        <li><Link to="/services">Services</Link></li>
+                                        <li><Link to="/service-details">Mechanical Design</Link></li>
+                                        <li><Link to="/service-details">Prototyping</Link></li>
+                                        <li><Link to="/service-details">Manufacturing</Link></li>
+                                        <li><Link to="/service-details">CAD Modeling</Link></li>
+                                        <li><Link to="/service-details">Software</Link></li>
+                                        <li><Link to="/service-details">Embedded</Link></li>
+                                        <li><Link to="/service-details">Front End Applications</Link></li>
+                                        <li><Link to="/service-details">Dev Ops/IT Infrastructure</Link></li>
+                                        <li><Link to="/service-details">UI/UX Design</Link></li>
                                     </ul>
                                 </li>
-                                <li className="has-droupdown"><Link to="/service" >Service</Link>
+                                <li className="has-droupdown"><Link to="#" >Projects</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/service">Service</Link></li>
-                                        <li><Link to="/service-details">Service Details</Link></li>
+                                        <li><Link to="/portfolio">RX Imager</Link></li>
+                                        <li><Link to="/portfolio">Monochrometer</Link></li>
+                                        <li><Link to="/portfolio">Particle Accelerator</Link></li>
+                                        <li><Link to="/portfolio">Kinex</Link></li>
+                                        <li><Link to="/portfolio">Medical Devices</Link></li>
+                                        
+                                    </ul>
+                                </li>
+
+                                <li className="has-droupdown"><Link to="#" >Community</Link>
+                                    <ul className="submenu">
+                                        <li><Link to="/portfolio">Cat Alley</Link></li>
+                                        <li><Link to="/portfolio">Ryan??</Link></li>
+                                        <li><Link to="/portfolio">Devices</Link></li>
+                                    </ul>
+                                </li>
+
+                                <li className="has-droupdown"><Link to="#" >Helium</Link>
+                                    <ul className="submenu">
+                                        <li><Link to="/portfolio">Consulting</Link></li>
+                                        <li><Link to="/portfolio">Infrastructure</Link></li>
+                                        <li><Link to="/portfolio">IoT Devices</Link></li>
                                     </ul>
                                 </li>
                                 <li><Link to="/about" >About</Link></li>
 
-                                <li className="has-droupdown"><Link to="#pages" >Pages</Link>
-                                    <ul className="submenu">
-                                        <li><Link to="/blog">Blog List</Link></li>
-                                        <li><Link to="/blog-details">Blog Details</Link></li>
-                                        <li><Link to="/service">Service</Link></li>
-                                        <li><Link to="/service-details">Service Details</Link></li>
-                                        <li><Link to="/portfolio">Portfolio</Link></li>
-                                        <li><Link to="/portfolio-details">Portfolio Details</Link></li>
-                                        <li><Link to="/404">404</Link></li>
-                                    </ul>
-                                </li>
-                                <li className="has-droupdown"><Link to="#" >Blocks</Link>
-                                    <ul className="submenu">
-                                        <li><Link to="/portfolio">Portfolio</Link></li>
-                                        <li><Link to="/team">Team</Link></li>
-                                        <li><Link to="/service">Service</Link></li>
-                                        <li><Link to="/video-popup">Video Popup</Link></li>
-                                        <li><Link to="/progressbar">Progressbar</Link></li>
-                                        <li><Link to="/gallery">Gallery</Link></li>
-                                        <li><Link to="/counters">Counters</Link></li>
-                                        <li><Link to="/blog">Blog List</Link></li>
-                                        <li><Link to="/clint-logo">Clint Logo</Link></li>
-                                        <li><Link to="/contact-form">Contact Form</Link></li>
-                                        <li><Link to="/google-map">Google Map</Link></li>
-                                        <li><Link to="/columns">Columns</Link></li>
-                                        <li><Link to="/pricing-table">Pricing Table</Link></li>
-                                    </ul>
-                                </li>
+                                
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </nav>

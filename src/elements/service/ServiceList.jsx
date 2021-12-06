@@ -1,36 +1,39 @@
 import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { FiMonitor } from "react-icons/fi";
+import { GiGears, GiCircuitry } from "react-icons/gi";
+import { FaTools, FaSyringe } from "react-icons/fa";
+import { MdSettingsInputAntenna } from "react-icons/md";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <GiGears />,
+        title: 'Mechanical Design',
+        description: 'The greatest Mechanical desinger that ever existed!'
     },
     {
-        icon: <FiLayers />,
-        title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <GiCircuitry />,
+        title: 'Embedded Software',
+        description: 'A master when circuits meets software.'
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FiMonitor />,
+        title: 'Front End Development',
+        description: 'Sleek and intuitive designs.'
     },
     { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FaSyringe />,
+        title: 'Medical Devices',
+        description: 'Curing Polio and AIDs.'
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FaTools />,
+        title: 'Prototyping',
+        description: 'Your idea becomes a relaity.'
     },
     { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <MdSettingsInputAntenna />,
+        title: 'Helium',
+        description: 'Wirless netwrok for any of you IoT needs.'
     }
 ]
 

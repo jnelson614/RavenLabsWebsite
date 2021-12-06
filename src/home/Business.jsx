@@ -20,8 +20,8 @@ const SlideList = [
         textPosition: 'text-left',
         bgImage: 'bg_image--17',
         category: '',
-        title: 'Raven Fucking Labs',
-        description: 'We get shit done!',
+        title: 'Mechanical.',
+        description: 'Mechanical engineering from prototyping to design',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     },
@@ -29,8 +29,8 @@ const SlideList = [
         textPosition: 'text-left',
         bgImage: 'bg_image--18',
         category: '',
-        title: 'Development.',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        title: 'Software.',
+        description: 'Full stack software engineers from embedded to UI',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     },
@@ -38,8 +38,8 @@ const SlideList = [
         textPosition: 'text-left',
         bgImage: 'bg_image--19',
         category: '',
-        title: 'Marketing.',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        title: 'Design.',
+        description: 'UX and UI designs.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     }
@@ -73,7 +73,7 @@ class Business extends Component{
 
         return(
             <Fragment> 
-                <Helmet pageTitle="Business" />
+                <Helmet pageTitle="Home" />
                 <Header />
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">
@@ -100,17 +100,6 @@ class Business extends Component{
                 </div>
                 {/* End Slider Area   */}
                 
-                {/* Start Brand Area */}
-                <div className="rn-brand-area bg_color--5 ptb--60">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-12">
-                                <BrandTwo />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Brand Area */}
 
                 {/* Start Service Area  */}
                 <div className="service-area creative-service-wrapper ptb--120 bg_color--1">
@@ -119,7 +108,7 @@ class Business extends Component{
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--30 mb_sm--0">
                                     <h2 className="title">Our Service</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <p>A handcrafted team of skilled professionals with a combined 50 years of professional experience</p>
                                 </div>
                             </div>
                         </div>
