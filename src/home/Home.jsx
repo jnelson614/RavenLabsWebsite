@@ -45,7 +45,7 @@ const SlideList = [
     }
 ]
 
-class Business extends Component{
+class Home extends Component{
     constructor (props) {
         super(props)
         this.state = {
@@ -140,4 +140,4 @@ class Business extends Component{
         )
     }
 }
-export default Business;
+export default Home;

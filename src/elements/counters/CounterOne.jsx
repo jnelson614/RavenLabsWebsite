@@ -17,16 +17,16 @@ class CounterOne extends Component{
     render(){
         let Data = [
             {
-                countNum : 199,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum : 1950,
+                countTitle: 'Billable hours Raven Labs has delievered to clients',
             },
             {
-                countNum : 575,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum : 12,
+                countTitle: 'Individual Projects Raven Labs has taken on',
             },
             {
-                countNum : 69,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum : 9,
+                countTitle: 'Exceptionally happy clients',
             },
         ];
 

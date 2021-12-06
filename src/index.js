@@ -16,7 +16,7 @@ import HomePortfolio from './home/HomePortfolio';
 import DigitalAgency from './home/DigitalAgency';
 import CreativeAgency from './home/CreativeAgency';
 import PersonalPortfolio from './home/PersonalPortfolio';
-import Business from './home/Business';
+import Home from './home/Home';
 import StudioAgency from './home/StudioAgency';
 import PortfolioLanding from './home/PortfolioLanding';
 import CreativeLanding from './home/CreativeLanding';
@@ -65,7 +65,7 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Business}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/startup`} component={Startup}/>
@@ -75,7 +75,6 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/creative-agency`} component={CreativeAgency}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/personal-portfolio`} component={PersonalPortfolio}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/studio-agency`} component={StudioAgency}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/business`} component={Business}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-home`} component={HomePortfolio}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} component={PortfolioLanding}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/>

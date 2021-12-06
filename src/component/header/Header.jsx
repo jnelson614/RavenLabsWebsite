@@ -45,7 +45,7 @@ class Header extends Component{
         }else if(logo === 'symbol-light'){
             logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
         }else{
-            logoUrl = <img width="300" src="/assets/images/logo/logo-white-purple.png" alt="Digital Agency" />;
+            logoUrl = <img width="300" src="/assets/images/logo/logo-white-purple.png" alt="Raven Labs" />;
         }
 
         
