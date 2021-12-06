@@ -33,7 +33,7 @@ const ServiceList = [
     { 
         icon: <MdSettingsInputAntenna />,
         title: 'Helium',
-        description: 'Wirless netwrok for any of you IoT needs.'
+        description: 'Wireless network for any of you IoT needs.'
     }
 ]
 

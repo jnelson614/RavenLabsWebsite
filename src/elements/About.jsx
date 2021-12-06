@@ -97,7 +97,7 @@ class About extends Component{
                                     </div>
                                     <div className="content">
                                         <h4 className="title">Grant Peret</h4>
-                                        <p className="designation">CEO/Mechanical Engineerr</p>
+                                        <p className="designation">CEO/Mechanical Engineer</p>
                                     </div>
                                     <ul className="social-icon" >
                                         <li><a href="https://www.facebook.com/grant.peret"><FaFacebookF /></a></li>
