@@ -66,42 +66,41 @@ class Header extends Component{
                                 </li>
                                 <li className="has-droupdown"><Link to="/services" >Services</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/services">Services</Link></li>
-                                        <li><Link to="/service-details">Mechanical Design</Link></li>
-                                        <li><Link to="/service-details">Prototyping</Link></li>
-                                        <li><Link to="/service-details">Manufacturing</Link></li>
-                                        <li><Link to="/service-details">CAD Modeling</Link></li>
-                                        <li><Link to="/service-details">Software</Link></li>
-                                        <li><Link to="/service-details">Embedded</Link></li>
-                                        <li><Link to="/service-details">Front End Applications</Link></li>
-                                        <li><Link to="/service-details">Dev Ops/IT Infrastructure</Link></li>
-                                        <li><Link to="/service-details">UI/UX Design</Link></li>
+                                        <li><Link to="/contact">Services</Link></li>
+                                        <li><Link to="/contact">Mechanical Design</Link></li>
+                                        <li><Link to="/contact">Prototyping</Link></li>
+                                        <li><Link to="/contact">Manufacturing</Link></li>
+                                        <li><Link to="/contact">CAD Modeling</Link></li>
+                                        <li><Link to="/contact">Software</Link></li>
+                                        <li><Link to="/contact">Embedded</Link></li>
+                                        <li><Link to="/contact">Front End Applications</Link></li>
+                                        <li><Link to="/contact">Dev Ops/IT Infrastructure</Link></li>
+                                        <li><Link to="/contact">UI/UX Design</Link></li>
                                     </ul>
                                 </li>
                                 <li className="has-droupdown"><Link to="#" >Projects</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/portfolio">RX Imager</Link></li>
-                                        <li><Link to="/portfolio">Monochrometer</Link></li>
-                                        <li><Link to="/portfolio">Particle Accelerator</Link></li>
-                                        <li><Link to="/portfolio">Kinex</Link></li>
-                                        <li><Link to="/portfolio">Medical Devices</Link></li>
+                                        <li><Link to="/contact">RX Imager</Link></li>
+                                        <li><Link to="/contact">Monochrometer</Link></li>
+                                        <li><Link to="/contact">Particle Accelerator</Link></li>
+                                        <li><Link to="/contact">Kinex</Link></li>
+                                        <li><Link to="/contact">Medical Devices</Link></li>
                                         
                                     </ul>
                                 </li>
 
                                 <li className="has-droupdown"><Link to="#" >Community</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/portfolio">Cat Alley</Link></li>
-                                        <li><Link to="/portfolio">Ryan??</Link></li>
-                                        <li><Link to="/portfolio">Devices</Link></li>
+                                        <li><Link to="/contact">Cat Alley</Link></li>
+                                        <li><Link to="/contact">Ryan??</Link></li>
                                     </ul>
                                 </li>
 
                                 <li className="has-droupdown"><Link to="#" >Helium</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/portfolio">Consulting</Link></li>
-                                        <li><Link to="/portfolio">Infrastructure</Link></li>
-                                        <li><Link to="/portfolio">IoT Devices</Link></li>
+                                        <li><Link to="/contact">Consulting</Link></li>
+                                        <li><Link to="/contact">Infrastructure</Link></li>
+                                        <li><Link to="/contact">IoT Devices</Link></li>
                                     </ul>
                                 </li>
                                 <li><Link to="/about" >About</Link></li>
@@ -110,11 +109,7 @@ class Header extends Component{
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </nav>
-                        <div className="header-btn">
-                            <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
-                                <span>buy now</span>
-                            </a>
-                        </div>
+
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
