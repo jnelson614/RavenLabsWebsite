@@ -18,7 +18,7 @@ class CounterOne extends Component{
         let Data = [
             {
                 countNum : 1950,
-                countTitle: 'Billable hours Raven Labs has delievered to clients',
+                countTitle: 'Billable hours Raven Labs has delivered to clients',
             },
             {
                 countNum : 12,
@@ -35,7 +35,7 @@ class CounterOne extends Component{
                 <div className="row">
                     {Data.map( (value, index) => (
                         <div className="counterup_style--1 col-lg-4 col-md-4 col-sm-6 col-12" key={index}>
-                            <h5 className="counter">
+                            <h5 className={index == 0 ? "counter_plus" : "counter"} >
                                 <VisibilitySensor onChange={this.onVisibilityChange} offset={{top:10}} delayedCall>
                                     <CountUp end={this.state.didViewCountUp ? value.countNum : 0} />
                                 </VisibilitySensor>
@@ -44,6 +44,7 @@ class CounterOne extends Component{
                         </div>
                     ))}
                 </div>
+
             </Fragment>
         )
     }

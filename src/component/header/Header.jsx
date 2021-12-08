@@ -80,10 +80,10 @@ class Header extends Component{
                                 </li>
                                 <li className="has-droupdown"><Link to="#" >Projects</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/coming-soon">RX Imager</Link></li>
+                                        <li><Link to="/coming-soon">Remote Pharmacy</Link></li>
                                         <li><Link to="/coming-soon">Monochrometer</Link></li>
                                         <li><Link to="/coming-soon">Particle Accelerator</Link></li>
-                                        <li><Link to="/coming-soon">Kinex</Link></li>
+                                        <li><Link to="/coming-soon">Automated Assembly</Link></li>
                                         <li><Link to="/coming-soon">Medical Devices</Link></li>
                                         
                                     </ul>
@@ -92,7 +92,6 @@ class Header extends Component{
                                 <li className="has-droupdown"><Link to="#" >Community</Link>
                                     <ul className="submenu">
                                         <li><Link to="/coming-soon">Cat Alley</Link></li>
-                                        <li><Link to="/coming-soon">Ryan??</Link></li>
                                     </ul>
                                 </li>
 
