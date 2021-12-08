@@ -286,9 +286,13 @@ Slider Default Style
                     margin-bottom: 10px;
                 }
             }
+            h2 {
+                color: #ffffff;
+                font-size: 45px;
+            }
             h1 {
                 &.title {
-                    color: #1f1f25;
+                    color: #ffffff;
                     font-size: 75px;
                     font-weight: 900;
                     font-family: 'Montserrat', sans-serif;

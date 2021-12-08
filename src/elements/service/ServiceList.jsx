@@ -9,12 +9,12 @@ const ServiceList = [
     {
         icon: <GiGears />,
         title: 'Mechanical Design',
-        description: 'The greatest mechanical designer that ever existed!'
+        description: 'Deep expertise in Solidworks and other CAD modeling software'
     },
     {
         icon: <GiCircuitry />,
         title: 'Embedded Software',
-        description: 'A master when circuits meets software.'
+        description: 'Robust, fault tolerant software'
     },
     {
         icon: <FiMonitor />,

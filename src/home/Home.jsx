@@ -1,18 +1,12 @@
 import React, { Component , Fragment } from "react";
-import ModalVideo from 'react-modal-video';
 import ScrollToTop from 'react-scroll-up';
-import Slider from "react-slick";
-import { slideSlick } from "../page-demo/script";
 import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
-import BrandTwo from "../elements/BrandTwo";
-import PortfolioList from "../elements/portfolio/PortfolioList";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 import CallAction from "../elements/callaction/CallAction";
-import Team from "../elements/Team";
-import Accordion01 from "../elements/Accordion";
-import { FiCheck, FiChevronUp } from "react-icons/fi";
+import TextLoop from "react-text-loop";
+import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 
 const SlideList = [
@@ -76,7 +70,7 @@ class Home extends Component{
                 <Helmet pageTitle="Home" />
                 <Header />
                 {/* Start Slider Area   */}
-                <div className="slider-wrapper">
+                {/* <div className="slider-wrapper">
                     <div className="slider-activation">
                         <Slider className="rn-slick-dot dot-light" {...slideSlick}>
                             {SlideList.map((value , index) => (
@@ -96,6 +90,34 @@ class Home extends Component{
                                 </div>
                             ))}
                         </Slider>
+                    </div>
+                </div> */}
+
+                <div id="home" className="fix">
+                    <div className="slider-wrapper">
+                        {/* Start Single Slide */}
+                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--18" data-black-overlay="8">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <div className="inner text-left">
+                                            <h1 className="title">Specializing in<br/>
+                                            <TextLoop>
+                                                <span> Mechanical</span>
+                                                <span> Software</span>
+                                                <span> Embedded</span>
+                                                <span> UI/UX</span>
+                                            </TextLoop>{" "}
+                                            </h1>
+                                            <h2>based in Manchester, NH.</h2>
+                                            {/* {value.description ? <p className="description">{value.description}</p> : ''}
+                                            {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''} */}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* End Single Slide */}
                     </div>
                 </div>
                 {/* End Slider Area   */}
