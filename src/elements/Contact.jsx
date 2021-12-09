@@ -2,22 +2,23 @@ import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
 import GoogleMapReact from 'google-map-react';
-import ContactTwo from "../elements/contact/ContactTwo";
-import BrandTwo from "../elements/BrandTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }) =>
+    <div className="map-pin">
+        <FiMapPin />
+    </div>
 
 class Contact extends Component{
     static defaultProps = {
         center: {
-            lat: 59.95,
-            lng: 30.33
+            lat: 42.99,
+            lng: -71.46
         },
-        zoom: 11
+        zoom: 16
     };
 
     render(){
@@ -72,7 +73,7 @@ class Contact extends Component{
                                     <div className="inner">
                                         <h4 className="title">Email Address</h4>
                                         <p><a href="mailto:hello@ravenlabsnh.com">Hello@RavenLabsNH.com</a></p>
-                                        <p><a href="mailto:lords@ravenlabsnh.com">Lords@RavenLabsNH.com</a></p>
+                                        <p><a href="mailto:Engineering@ravenlabsnh.com">Engineering@RavenLabsNH.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -101,12 +102,13 @@ class Contact extends Component{
                 <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
                         <GoogleMapReact
+                        bootstrapURLKeys={{ key: "AIzaSyB0UNE15owolCqv_vCC4usVLxSdoQh1O-g" }}
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
                         >
                         <AnyReactComponent
-                            lat={42.9912652}
-                            lng={-71.4648674}
+                            lat={42.99128}
+                            lng={-71.46265}
                             text="Raven Labs HQ"
                         />
                         </GoogleMapReact>

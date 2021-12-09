@@ -105,10 +105,12 @@ class Home extends Component{
                                             <TextLoop>
                                                 <span> Mechanical</span>
                                                 <span> Software</span>
+                                                <span> Human Factors</span>
                                                 <span> Robotics</span>
                                             </TextLoop>{" "}
-                                            </h1>
+
                                             <h2>Engineering</h2>
+                                            </h1>
                                             {/* {value.description ? <p className="description">{value.description}</p> : ''}
                                             {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''} */}
                                         </div>

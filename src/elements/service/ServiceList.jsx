@@ -19,17 +19,17 @@ const ServiceList = [
     {
         icon: <FiMonitor />,
         title: 'Front End Development',
-        description: 'Sleek and intuitive designs.'
+        description: 'Sleek and intuitive designs'
     },
     { 
         icon: <FaSyringe />,
         title: 'Medical Devices',
-        description: 'On the cutting edge of developing live saving devices.'
+        description: 'On the cutting edge of developing live saving devices'
     },
     {
         icon: <FaTools />,
         title: 'Prototyping',
-        description: 'Taking any idea and making it a reality.'
+        description: 'Taking any idea and making it a reality'
     },
     { 
         icon: <MdSettingsInputAntenna />,
