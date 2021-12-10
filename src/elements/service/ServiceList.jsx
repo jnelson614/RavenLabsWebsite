@@ -24,7 +24,7 @@ const ServiceList = [
     { 
         icon: <FaSyringe />,
         title: 'Medical Devices',
-        description: 'On the cutting edge of developing live saving devices'
+        description: 'On the cutting edge of developing life saving devices'
     },
     {
         icon: <FaTools />,

@@ -1,15 +1,56 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import Breadcrumb from "../elements/common/Breadcrumb";
 import CounterOne from "../elements/counters/CounterOne";
-import Testimonial from "../elements/Testimonial";
-import BrandTwo from "../elements/BrandTwo";
-import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
+import { FaFacebookF , FaLinkedinIn } from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 
+const EmployeeList = [
+    {
+        source: "/assets/images/team/Grant_Headshot.png",
+        name: "Grant Peret",
+        role: "CEO/Mechanical Engineer",
+        facebook: "https://www.facebook.com/grant.peret",
+        linkedin: "https://www.linkedin.com/in/grant-peret-64a3b876/"
+    },
+    {
+        source: "/assets/images/team/Jeff_Headshot.png",
+        name: "Jeff Nelson",
+        role: "CIO/Software Engineer",
+        facebook: "https://www.facebook.com/jeff.nelson.923519",
+        linkedin: "https://www.linkedin.com/in/jrnelson43/"
+    },
+    {
+        source: "/assets/images/team/Bob.png",
+        name: "Bob Peret",
+        role: "CTO/Embedded Engineer",
+        facebook: "https://www.facebook.com/bob.peret",
+        linkedin: "https://www.linkedin.com/in/bob-peret-74683a1/"
+    },
+    {
+        source: "/assets/images/team/Kyle_Headshot.png",
+        name: "Kyle Robertson",
+        role: "Dev Ops/Cloud Architect/Data Scientist",
+        facebook: "https://www.facebook.com/kyle.robertson.3591",
+        linkedin: "https://www.linkedin.com/in/kyle-robertson-4059a9104/"
+    },
+    {
+        source: "/assets/images/team/Julia_Headshot.png",
+        name: "Julia Paranay",
+        role: "Senior Product Designer",
+        facebook: "https://www.facebook.com/jeparanay",
+        linkedin: "https://www.linkedin.com/in/juliaparanay/"
+    },
+    {
+        source: "/assets/images/team/Sam_Headshot.png",
+        name: "Sam Pierce",
+        role: "Senior UX Designer",
+        facebook: "https://www.facebook.com/sam.pierce.338",
+        linkedin: "https://www.linkedin.com/in/sam-pierce-43b682162/"
+    },
+]
 
 class About extends Component{
     render(){
@@ -90,59 +131,23 @@ class About extends Component{
                         <div className="row">
                             
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="team">
-                                    <div className="thumbnail">
-                                        <img className="w-100" height="390" src="/assets/images/team/Grant.jpg" alt="Grant Peret"/>
+                            {EmployeeList.map( (val, i) => (
+                                <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={i}>
+                                    <div className="team">
+                                        <div className="thumbnail">
+                                            <img className="w-100" src={val.source} alt="Grant Peret"/>
+                                        </div>
+                                        <div className="content">
+                                            <h4 className="title">{val.name}</h4>
+                                            <p className="designation">{val.role}</p>
+                                        </div>
+                                        <ul className="social-icon" >
+                                            <li><a href={val.facebook}><FaFacebookF /></a></li>
+                                            <li><a href={val.linkedin}><FaLinkedinIn /></a></li>
+                                        </ul>
                                     </div>
-                                    <div className="content">
-                                        <h4 className="title">Grant Peret</h4>
-                                        <p className="designation">CEO/Mechanical Engineer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/grant.peret"><FaFacebookF /></a></li>
-                                        <li><a href="https://www.linkedin.com/in/grant-peret-64a3b876/"><FaLinkedinIn /></a></li>
-                                    </ul>
                                 </div>
-                            </div>
-                            {/* End Single Team  */}
-
-                            {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="team">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/Jeff.jpg" alt="Jeff Nelson"/>
-                                    </div>
-                                    <div className="content">
-                                        <h4 className="title">Jeff Nelson</h4>
-                                        <p className="designation">CIO/Software Engineer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            {/* End Single Team  */}
-
-                            {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="team">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/Bob.jpg" alt="Blog Images"/>
-                                    </div>
-                                    <div className="content">
-                                        <h4 className="title">Bob Peret</h4>
-                                        <p className="designation">CTO/Embedded Engineer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/bob.peret"><FaFacebookF /></a></li>
-                                        <li><a href="https://www.linkedin.com/in/bob-peret-74683a1/"><FaLinkedinIn /></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            {/* End Single Team  */}
-
+                            ))}
                         </div>
                     </div>
                 </div>

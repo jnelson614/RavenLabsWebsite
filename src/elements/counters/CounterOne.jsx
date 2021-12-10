@@ -14,7 +14,7 @@ class CounterOne extends Component{
     render(){
         let Data = [
             {
-                countNum : 1950,
+                countNum : 3500,
                 countTitle: 'Billable hours Raven Labs has delivered to clients',
             },
             {

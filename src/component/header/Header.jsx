@@ -95,13 +95,7 @@ class Header extends Component{
                                     </ul>
                                 </li>
 
-                                <li className="has-droupdown"><Link to="#" >Helium</Link>
-                                    <ul className="submenu">
-                                        <li><Link to="/coming-soon">Consulting</Link></li>
-                                        <li><Link to="/coming-soon">Infrastructure</Link></li>
-                                        <li><Link to="/coming-soon">IoT Devices</Link></li>
-                                    </ul>
-                                </li>
+                                <li><Link to="/coming-soon" >Helium</Link></li>
                                 <li><Link to="/about" >About</Link></li>
 
                                 

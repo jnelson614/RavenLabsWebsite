@@ -23,19 +23,19 @@ class ServiceDetails extends Component{
             <React.Fragment>
                 
                 {/* Start Pagehelmet  */}
-                <PageHelmet pageTitle='Service Details' />
+                <PageHelmet pageTitle='Helium' />
                 {/* End Pagehelmet  */}
 
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--5"  data-black-overlay="5">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--2"  data-black-overlay="7">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">WEBSITE DEVELOPMENT</h2>
-                                    <p>Fresh From The Press Discription</p>
+                                    <h2 className="title theme-gradient">Helium</h2>
+                                    <p>Developing devices for the People's Network</p>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ class ServiceDetails extends Component{
                                         <div className="row sercice-details-content pb--80 align-items-center">
                                             <div className="col-lg-6 col-12">
                                                 <div className="thumb">
-                                                    <img className="w-100" src="/assets/images/service/service-01.png" alt="Service Images"/>
+                                                    <img className="w-100" src="/assets/images/helium/LoRaPump.png" alt="Service Images"/>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-12">
