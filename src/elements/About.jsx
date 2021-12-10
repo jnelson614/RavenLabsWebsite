@@ -49,7 +49,7 @@ const EmployeeList = [
         role: "Senior UX Designer",
         facebook: "https://www.facebook.com/sam.pierce.338",
         linkedin: "https://www.linkedin.com/in/sam-pierce-43b682162/"
-    },
+    }
 ]
 
 class About extends Component{
