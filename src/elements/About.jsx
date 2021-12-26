@@ -142,7 +142,6 @@ class About extends Component{
                                             <p className="designation">{val.role}</p>
                                         </div>
                                         <ul className="social-icon" >
-                                            <li><a href={val.facebook}><FaFacebookF /></a></li>
                                             <li><a href={val.linkedin}><FaLinkedinIn /></a></li>
                                         </ul>
                                     </div>
