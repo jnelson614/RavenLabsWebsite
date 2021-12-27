@@ -12,33 +12,38 @@ import Footer from "../component/footer/Footer";
 const list = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Deployment',
+        title: 'Solar Powered Hotspots'
     },
     {
         image: 'image-2',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: ' Helium Hotspot Mapper'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        category: 'Deployment',
+        title: 'Yaggi Antenna install'
     },
     {
         image: 'image-4',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Prototyping'
     },
     {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: 'image-5',
+        category: 'Deployment',
+        title: 'Omni Directional Antenna Install'
     },
     {
-        image: 'image-4',
+        image: 'image-6',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'DIY Alpha Hotspot'
+    },
+    {
+        image: 'image-7',
+        category: 'Deployment',
+        title: 'Hotspot fans'
     }
 ]
 
