@@ -64,19 +64,31 @@
         transition: transform .28s ease;
         z-index: 4;
         &.image-1{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
+            background-image: url(/assets/images/helium/SolarHelium.JPG);
         }
 
         &.image-2{
-            background-image: url(/assets/images/portfolio/portfolio-2.jpg);
+            background-image: url(/assets/images/helium/Mapper.jpg);
         }
 
         &.image-3{
-            background-image: url(/assets/images/portfolio/portfolio-3.jpg);
+            background-image: url(/assets/images/helium/SnowyYaggi.png);
         }
 
-        &.image-4 {
-            background-image: url(/assets/images/portfolio/portfolio-4.jpg);
+        &.image-4 {   
+            background-image: url(/assets/images/helium/HotspotParts.png);
+        }
+
+        &.image-5 {   
+            background-image: url(/assets/images/helium/Antenna.jpg);
+        }
+
+        &.image-6 {   
+            background-image: url(/assets/images/helium/DIYHotspot.png);
+        }
+
+        &.image-7 {   
+            background-image: url(/assets/images/helium/HotspotFan.png);
         }
 
         &::after{
@@ -92,6 +104,38 @@
             border-radius: 5px;
             background-color: rgba(25,25,25,.37);
             @extend %transition;
+        }
+    }
+
+    h2{
+        &.title{
+            font-size: 60px;
+            margin-bottom: 8px;
+            
+            @media #{$lg-layout} {
+                font-size: 50px;
+            }
+            @media #{$sm-layout} {
+                font-size: 36px;
+                margin-bottom: 7px;
+            }
+        }
+    }
+    p {
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(29, 29, 36, 0.75);
+        a {
+            color: rgba(29, 29, 36, 1);
+            font-weight: 500;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+        br {
+            @media #{$sm-layout} {
+                display: none;    
+            }
         }
     }
 
