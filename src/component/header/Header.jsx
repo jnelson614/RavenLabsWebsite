@@ -78,16 +78,7 @@ class Header extends Component{
                                         <li><Link to="/coming-soon">UI/UX Design</Link></li>
                                     </ul>
                                 </li>
-                                <li className="has-droupdown"><Link to="#" >Projects</Link>
-                                    <ul className="submenu">
-                                        <li><Link to="/coming-soon">Remote Pharmacy</Link></li>
-                                        <li><Link to="/coming-soon">Monochrometer</Link></li>
-                                        <li><Link to="/coming-soon">Particle Accelerator</Link></li>
-                                        <li><Link to="/coming-soon">Automated Assembly</Link></li>
-                                        <li><Link to="/coming-soon">Medical Devices</Link></li>
-                                        
-                                    </ul>
-                                </li>
+                                <li className="has-droupdown"><Link to="/projects" >Projects</Link></li>
 
                                 <li className="has-droupdown"><Link to="#" >Community</Link>
                                     <ul className="submenu">
@@ -95,7 +86,7 @@ class Header extends Component{
                                     </ul>
                                 </li>
 
-                                <li><Link to="/coming-soon" >Helium</Link></li>
+                                <li><Link to="/helium" >Helium</Link></li>
                                 <li><Link to="/about" >About</Link></li>
 
                                 
