@@ -78,7 +78,7 @@ class Header extends Component{
                                         <li><Link to="/coming-soon">UI/UX Design</Link></li>
                                     </ul>
                                 </li>
-                                <li className="has-droupdown"><Link to="/projects" >Projects</Link></li>
+                                <li ><Link to="/projects" >Projects</Link></li>
 
                                 <li className="has-droupdown"><Link to="#" >Community</Link>
                                     <ul className="submenu">

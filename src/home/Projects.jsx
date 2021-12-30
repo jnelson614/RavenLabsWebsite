@@ -19,7 +19,7 @@ const Projects = () => {
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Projects</h2>
-                                    <p>Ranging from medical devices to custom RV's, Raven Lab's has experience in many fields. </p>
+                                    <p>Ranging from medical devices to custom RV's, Raven Lab's has experience in it all.</p>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ const Projects = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Remote Pharmacist </h2>
-                                            <p className="description">Raven Labs helped design, prototype, manufacture, and test an application that allowed Pharmacists to view and approve pending prescription orders for a fortune 500 Company. </p>
+                                            <p className="description">Raven Labs helped design, prototype, manufacture, and test an application that allows a Pharmacists to view and approve pending prescription orders remotely for a fortune 500 Company. </p>
                                         </div>
                                         {/* <div className="row mt--30">
                                             <TabTwo tabStyle="tab-style--1" />
@@ -69,7 +69,7 @@ const Projects = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Particle Accelerator</h2>
-                                            <p className="description">Grant did some crazy shit to make an old ass particle accelerator create isotopes reliably.</p>
+                                            <p className="description">Grant did some crazy shit to make an old ass particle accelerator create isotopes reliably. This works by colliding atoms at a very high speed</p>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +102,7 @@ const Projects = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Monochrometer</h2>
-                                            <p className="description">Developed testing and calibration tools for a Monochrometer, a optical device. Designed calibration process that utilized stepper motors and enterprise sensors to calibrate the devices before shipping.</p>
+                                            <p className="description">Developed testing and calibration tool for an optical device for a production setting. Designed calibration process that utilized stepper motors and enterprise sensors to calibrate the devices, and make sure the device is within specification, before shipping out to customers.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@ const Projects = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Mobility Bus</h2>
-                                            <p className="description">Grant also did some crazy shit to retrofit an RV to have a slide-out elevator to assist people with disabilities.</p>
+                                            <p className="description">Grant also did some crazy shit to retrofit an RV to have a slide-out elevator to assist people with disabilities. It has loads of safety features and has recently toured the country on it's debut voyage.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,7 +157,7 @@ const Projects = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Rapid Blood Test</h2>
-                                            <p className="description">Developed front end application to allow physicians to load blood samples in to a machine to perform automated tests to detect for blood pathogens such as Sepsis.</p>
+                                            <p className="description">Developed front end application for a medical device that uses cutting edge technology to rapidly detect an array of blood diseases like Sepsis. This allow patients to get the treatment they need days before a regular blood test would come back</p>
                                         </div>
                                     </div>
                                 </div>
