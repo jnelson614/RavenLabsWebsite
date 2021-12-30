@@ -131,7 +131,7 @@ const Projects = () => {
                                 </div>
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/mobilityBus.jpg" alt="Bus"/>
+                                        <img className="w-100" src="/assets/images/mobilityBus.JPG" alt="Bus"/>
                                     </div>
                                 </div>
                             </div>
