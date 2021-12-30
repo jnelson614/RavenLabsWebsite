@@ -68,6 +68,7 @@
             position: absolute;
             top: 25px;
             left: 35px;
+            height: 1000px;
             padding: 0;
             z-index: 2;
             list-style: none;
@@ -146,6 +147,7 @@
             &.social-icon {
                 li {
                     opacity: 1;
+                    width: 300;
                     visibility: visible;
                     transform: translateY(0);
                     

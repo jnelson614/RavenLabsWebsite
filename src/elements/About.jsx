@@ -49,7 +49,7 @@ const EmployeeList = [
         role: "Senior UX Designer",
         facebook: "https://www.facebook.com/sam.pierce.338",
         linkedin: "https://www.linkedin.com/in/sam-pierce-43b682162/"
-    },
+    }
 ]
 
 class About extends Component{
@@ -142,7 +142,6 @@ class About extends Component{
                                             <p className="designation">{val.role}</p>
                                         </div>
                                         <ul className="social-icon" >
-                                            <li><a href={val.facebook}><FaFacebookF /></a></li>
                                             <li><a href={val.linkedin}><FaLinkedinIn /></a></li>
                                         </ul>
                                     </div>
