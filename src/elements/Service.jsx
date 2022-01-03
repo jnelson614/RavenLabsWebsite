@@ -42,7 +42,8 @@ const Service = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Mechanical Design</h2>
-                                            <p className="description">From Modeling to Prototyping Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.  </p>
+                                            <p className="description">From Modeling to Prototyping, our skills in CAD tools will bring your design to life. 
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +69,7 @@ const Service = () => {
                                         <div className="section-title">
                                             <h2 className="title">Embedded Software </h2>
                                             <p className="description"> Controlling hardware with software is one of Raven Labs expertise. Our engineers have 30 plus years developing embedded software for
-                                            medical, robotic, and IoT devices. Our test driven approach allows us to quickly iterate, optimize, and produce robust quality software that will safely run your device </p>
+                                            medical, robotic, and IoT devices. Our test driven approach allows us to quickly iterate, optimize, and produce robust quality software that will safely run any hardware </p>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +105,7 @@ const Service = () => {
                                         <div className="section-title">
                                             <h2 className="title">Front End Development</h2>
                                             <p className="description">Sleek UI's and intuitive designs. Raven Labs has developed console applications in WPF (C#), Tkinter (Python), QT (Python) for medical and research devices and a
-                                            handful of web based application. With the ability to leverage two top tier UX designers, Raven labs can help develop your next application </p>
+                                            handful of web based application. With the ability to leverage top tier UX designers, Raven labs can help craft and develop your next application </p>
                                         </div>
                                     </div>
                                 </div>
