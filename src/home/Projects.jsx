@@ -19,7 +19,7 @@ const Projects = () => {
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Projects</h2>
-                                    <p>Ranging from medical devices to custom RV's, Raven Lab's has experience in it all.</p>
+                                    {/* <p>Ranging from medical devices to custom RV's, Raven Lab's has experience in it all.</p> */}
                                 </div>
                             </div>
                         </div>

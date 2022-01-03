@@ -88,7 +88,13 @@ class Helium extends Component{
                                 <div className="col-lg-12">
                                     <div className="text-center mb--15">
                                         <h2 className="title">Hands on Experience</h2>
-                                        <p>With 43 hotspots, experience developing a handful of devices, and a suite of hotspot management tools, Raven Labs is no stranger to the Helium Network. With hundred of hours invested in to the Helium Network, we have been with Helium since the start.</p>
+                                        <p>Since it's infancy, Raven Labs has been engaged with the helium network.
+                                            With only 278 in the world, Raven Labs developed 2 of the first Do-It-Yourself hostspots built with off the shelf hardware.
+                                            Operating now 40+ hotspots from an variety of manufactures, Raven labs has specialized every deployment with custom enclosures, hardware, and aftermarket
+                                            antenna that best suites the environment the hotspot is placed in. Our expertise doesnt stop here though. We have developed a handful of IoT devices
+                                            he utilize the network along with array of Cloud based monitoring tools to optimize our workflow.
+                                            With hundred of hours invested in to the Helium Network and experience in the whole ecosystem, Raven Labs is here to bring your IoT idea to life
+                                            on the Helium Network!</p>
                                     </div>
                                     
                                     
