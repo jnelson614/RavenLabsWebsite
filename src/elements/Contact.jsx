@@ -65,7 +65,7 @@ class Contact extends Component{
                             {/* End Single Address  */}
 
                             {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
+                            <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt_sm--100">
                                 <div className="rn-address">
                                     <div className="icon">
                                         <FiMail />
