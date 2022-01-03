@@ -68,12 +68,6 @@ class Header extends Component{
                                 </li>
                                 <li ><Link to="/projects" >Projects</Link></li>
 
-                                <li className="has-droupdown"><Link to="#" >Community</Link>
-                                    <ul className="submenu">
-                                        <li><Link to="/coming-soon">Cat Alley</Link></li>
-                                    </ul>
-                                </li>
-
                                 <li><Link to="/helium" >Helium</Link></li>
                                 <li><Link to="/about" >About</Link></li>
 

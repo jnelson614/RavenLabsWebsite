@@ -175,6 +175,36 @@ const Projects = () => {
            
             {/* End Blood Test area */}
 
+
+            {/* Start Cat Alley area */}
+
+            <div id="about" className="fix">
+                <div className="about-area ptb--120  bg_color--1">
+                    <div className="about-wrapper">
+                        <div className="container">
+                            <div className="row row--35 align-items-center">
+                                
+                                <div className="col-lg-7 order-2 order-lg-1" >
+                                    <div className="about-inner inner">
+                                        <div className="section-title">
+                                            <h2 className="title">Cat Alley</h2>
+                                            <p className="description">In the heart of Manchester, Raven labs designed and fabricated the entrance to Cat Alley. In this pro bono project, </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-5 order-1 order-lg-2">
+                                    <div className="thumbnail">
+                                    <img className="w-100" src="/assets/images/catalley.jpg" alt="Cat Alley"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            {/* End Cat alley area */}
+
             <FooterTwo />
             {/* Start Back To Top */}
             <div className="backto-top">
