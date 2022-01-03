@@ -34,12 +34,12 @@ const Projects = () => {
                     <div className="about-wrapper">
                         <div className="container">
                             <div className="row row--35 align-items-center">
-                                <div className="col-lg-5">
+                                <div className="col-lg-5 order-1 order-lg-1">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/pills.jpeg" alt="prescription pills"/>
                                     </div>
                                 </div>
-                                <div className="col-lg-7">
+                                <div className="col-lg-7 order-2 order-lg-2" >
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Remote Pharmacist </h2>
@@ -60,20 +60,22 @@ const Projects = () => {
 
 
             {/* Start Particle accelerator area */}
+
             <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container">
                             <div className="row row--35 align-items-center">
-                            <div className="col-lg-7">
+                                
+                                <div className="col-lg-7 order-2 order-lg-1" >
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">Particle Accelerator</h2>
-                                            <p className="description">Grant did some crazy shit to make an old ass particle accelerator create isotopes reliably. This works by colliding atoms at a very high speed</p>
+                                            <h2 className="title">Particle Accelerator </h2>
+                                            <p className="description">When legacy design collides with modern innovation, Raven Labs is the technology mediator. First, Raven Labs reversed engineered and documented components of a functioning particle accelerator assembled in the 1950's which were previously undocumented. Since then, Raven Labs has introduced design innovations within the particle accelerator to provide calibration sensor outputs, capacity to capture of higher energy isotopes, and reduce overall operating costs. </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-5">
+                                <div className="col-lg-5 order-1 order-lg-2">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/atom.jpg" alt="Atom"/>
                                     </div>
@@ -83,30 +85,31 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            
+
+
             {/* End Particle accelerator area */}
 
 
             {/* Start monochrometer area */}
+
             <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container">
                             <div className="row row--35 align-items-center">
-                                <div className="col-lg-5">
+                                <div className="col-lg-5 order-1 order-lg-1">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/light.jpg" alt="Light"/>
+                                    <img className="w-100" src="/assets/images/light.jpg" alt="Light"/>
                                     </div>
                                 </div>
-                                <div className="col-lg-7">
+                                <div className="col-lg-7 order-2 order-lg-2" >
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Monochrometer</h2>
-                                            <p className="description">Developed testing and calibration tool for an optical device for a production setting. Designed calibration process that utilized stepper motors and enterprise sensors to calibrate the devices, and make sure the device is within specification, before shipping out to customers.</p>
+                                            <p className="description">Developed the required tools for bringing a optical device prototype to market. Designed and implemented a control sequence utilizing stepper motors and enterprise sensor inputs to validate device specifications  prior to customer shipment.</p>
                                         </div>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
@@ -116,22 +119,24 @@ const Projects = () => {
             {/* End monochrometer area */}
 
             {/* Start Mobility Bus area */}
+
             <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container">
                             <div className="row row--35 align-items-center">
-                            <div className="col-lg-7">
+                                
+                                <div className="col-lg-7 order-2 order-lg-1" >
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Mobility Bus</h2>
-                                            <p className="description">Grant also did some crazy shit to retrofit an RV to have a slide-out elevator to assist people with disabilities. It has loads of safety features and has recently toured the country on it's debut voyage.</p>
+                                            <p className="description">In partnership with Mobius Mobility, the Raven Labs mechanical team designed and fabricated a wholly custom bus. Given the purpose to deliver iBOTs and train veterans throughout the country a complete overhaul was required.  The redesign includes an oversized slide out, featuring a human elevator and retractable stairs. The cosmetically upgraded interior also features an iBOT service center, classroom training area and storage for 5 iBOTs.  The Mobility Bus successfully completed its maiden voyage tour travelling throughout the US in Summer 2020.</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-5">
+                                <div className="col-lg-5 order-1 order-lg-2">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/mobilityBus.JPG" alt="Bus"/>
+                                    <img className="w-100" src="/assets/images/mobilityBus.JPG" alt="Bus"/>
                                     </div>
                                 </div>
                             </div>
@@ -143,17 +148,18 @@ const Projects = () => {
             {/* End Mobility Bus accelerator area */}
 
             {/* Start Blood Test area */}
+
             <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container">
                             <div className="row row--35 align-items-center">
-                                <div className="col-lg-5">
+                                <div className="col-lg-5 order-1 order-lg-1">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/bloodTest.jpg" alt="Blood Test"/>
                                     </div>
                                 </div>
-                                <div className="col-lg-7">
+                                <div className="col-lg-7 order-2 order-lg-2" >
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Rapid Blood Test</h2>
@@ -161,13 +167,12 @@ const Projects = () => {
                                         </div>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+           
             {/* End Blood Test area */}
 
             <FooterTwo />

@@ -64,19 +64,7 @@ class Header extends Component{
                             <ul className="mainmenu">
                                 <li><Link to="/">Home</Link>
                                 </li>
-                                <li className="has-droupdown"><Link to="#" >Services</Link>
-                                    <ul className="submenu">
-                                        <li><Link to="/coming-soon">Services</Link></li>
-                                        <li><Link to="/coming-soon">Mechanical Design</Link></li>
-                                        <li><Link to="/coming-soon">Prototyping</Link></li>
-                                        <li><Link to="/coming-soon">Manufacturing</Link></li>
-                                        <li><Link to="/coming-soon">CAD Modeling</Link></li>
-                                        <li><Link to="/coming-soon">Software</Link></li>
-                                        <li><Link to="/coming-soon">Embedded</Link></li>
-                                        <li><Link to="/coming-soon">Front End Applications</Link></li>
-                                        <li><Link to="/coming-soon">Dev Ops/IT Infrastructure</Link></li>
-                                        <li><Link to="/coming-soon">UI/UX Design</Link></li>
-                                    </ul>
+                                <li><Link to="/services" >Services</Link>
                                 </li>
                                 <li ><Link to="/projects" >Projects</Link></li>
 
