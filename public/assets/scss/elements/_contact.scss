@@ -78,6 +78,13 @@
             @media #{$sm-layout} {
                 font-size: 12px;
             }
+            @media #{$large-mobile} {
+                font-size: 12px;
+            }
+            @media #{$small-mobile} {
+                font-size: 12px;
+            }
+
             br {
                 
                 @media #{$lg-layout} {
