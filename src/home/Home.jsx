@@ -1,7 +1,6 @@
 import React, { Component , Fragment } from "react";
 import ScrollToTop from 'react-scroll-up';
 import ServiceList from "../elements/service/ServiceList";
-import BlogContent from "../elements/blog/BlogContent";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 import CallAction from "../elements/callaction/CallAction";
@@ -63,7 +62,6 @@ class Home extends Component{
             'The Hidden Mystery Behind business',
         ];
         
-        const PostList = BlogContent.slice(0 , 3);
 
         return(
             <Fragment> 
