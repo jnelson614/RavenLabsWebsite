@@ -63,26 +63,23 @@
             &.title {
                 font-size: 18px;
                 font-weight: 700;
+                @media #{$md-layout} {
+                    font-size: 16px;
+                }
             }
         }
         p {
-            font-size: 12px;
+            font-size: 16px;
             margin-bottom: 0;
             color: rgba(29, 29, 36, 0.75);
             @media #{$lg-layout} {
-                font-size: 14px;
+                font-size: 16px;
             }
             @media #{$md-layout} {
-                font-size: 12px;
+                font-size: 16px;
             }
             @media #{$sm-layout} {
-                font-size: 12px;
-            }
-            @media #{$large-mobile} {
-                font-size: 12px;
-            }
-            @media #{$small-mobile} {
-                font-size: 12px;
+                font-size: 16px;
             }
 
             br {
@@ -102,6 +99,13 @@
             a {
                 color: rgba(29, 29, 36, 0.75);
                 @extend %transition;
+
+                @media #{$large-mobile} {
+                    font-size: 14px;
+                }
+                @media #{$small-mobile} {
+                    font-size: 14px;
+                }
                 &:hover {
                     color: $theme-color;
                 }
