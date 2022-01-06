@@ -8,36 +8,6 @@ import TextLoop from "react-text-loop";
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 
-const SlideList = [
-    {
-        textPosition: 'text-left',
-        bgImage: 'bg_image--17',
-        category: '',
-        title: 'Mechanical.',
-        description: 'Mechanical engineering from prototyping to design',
-        buttonText: 'Contact Us',
-        buttonLink: '/contact'
-    },
-    {
-        textPosition: 'text-left',
-        bgImage: 'bg_image--18',
-        category: '',
-        title: 'Software.',
-        description: 'Full stack software engineers from embedded to UI',
-        buttonText: 'Contact Us',
-        buttonLink: '/contact'
-    },
-    {
-        textPosition: 'text-left',
-        bgImage: 'bg_image--19',
-        category: '',
-        title: 'Design.',
-        description: 'UX and UI designs.',
-        buttonText: 'Contact Us',
-        buttonLink: '/contact'
-    }
-]
-
 class Home extends Component{
     constructor (props) {
         super(props)
@@ -49,48 +19,14 @@ class Home extends Component{
     openModal () {
         this.setState({isOpen: true})
     }
-    render(){
-        var namesItemOne = [
-            'The Philosophy Of business analytics',
-            'Fast-Track Your business',
-            'Lies And Damn Lies About business',
-            'The Ultimate Deal On business',
-        ];
-        var namesItemTwo = [
-            'Proof That business Really Works',
-            'Here Is What You Should Do For Your business',
-            'The Hidden Mystery Behind business',
-        ];
-        
+    render(){     
 
         return(
             <Fragment> 
                 <Helmet pageTitle="Home" />
                 <Header />
                 {/* Start Slider Area   */}
-                {/* <div className="slider-wrapper">
-                    <div className="slider-activation">
-                        <Slider className="rn-slick-dot dot-light" {...slideSlick}>
-                            {SlideList.map((value , index) => (
-                                <div className={`slide slide-style-2 d-flex align-items-center justify-content-center bg_image ${value.bgImage}`} key={index} data-black-overlay="8">
-                                    <div className="container">
-                                        <div className="row">
-                                            <div className="col-lg-12">
-                                                <div className={`inner ${value.textPosition}`}>
-                                                    {value.category ? <span>{value.category}</span> : ''}
-                                                    {value.title ? <h1 className="title">{value.title}</h1> : ''}
-                                                    {value.description ? <p className="description">{value.description}</p> : ''}
-                                                    {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-solid" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </Slider>
-                    </div>
-                </div> */}
-
+                
                 <div id="home" className="fix">
                     <div className="slider-wrapper">
                         {/* Start Single Slide */}

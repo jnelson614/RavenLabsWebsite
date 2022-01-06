@@ -34,7 +34,7 @@ class Contact extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Connect With Us</h2>
+                                    <h2 className="title textWhite">Connect With Us</h2>
                                     <p>Have a question or want to learn more? Shoot us an email.     </p>
                                 </div>
                             </div>

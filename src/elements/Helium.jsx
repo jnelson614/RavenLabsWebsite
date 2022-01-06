@@ -67,12 +67,12 @@ class Helium extends Component{
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--2"  data-black-overlay="7">
+                <div className="pt--120 pb--190 bg_image bg_image--2"  data-black-overlay="7">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Helium</h2>
+                                    <h2 className="title textWhite">Helium</h2>
                                     <p>Developing devices for the People's Network</p>
                                 </div>
                             </div>
@@ -81,13 +81,13 @@ class Helium extends Component{
                 </div>
                 {/* End Breadcrump Area */}
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pt--120 pb--140 bg_color--5">
+                <div className="portfolio-area pt--60 pb--140 bg_color--5">
                     <div className="rn-slick-dot">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <div className="text-center mb--15">
-                                        <h2 className="title">Hands on Experience</h2>
+                                    <div className="text-center pb--60 mb--15" >
+                                        <h2 className="title pb--20">Hands on Experience</h2>
                                         <p>Since it's infancy, Raven Labs has been engaged with the helium network.
                                             With only 278 in the world, Raven Labs developed 2 of the first Do-It-Yourself hostspots built with off the shelf hardware.
                                             Operating now 40+ hotspots from an variety of manufactures, Raven labs has specialized every deployment with custom enclosures, hardware, and aftermarket

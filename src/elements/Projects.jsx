@@ -18,7 +18,7 @@ const Projects = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Projects</h2>
+                                    <h2 className="title textWhite">Projects</h2>
                                     {/* <p>Ranging from medical devices to custom RV's, Raven Lab's has experience in it all.</p> */}
                                 </div>
                             </div>
@@ -188,7 +188,7 @@ const Projects = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Cat Alley</h2>
-                                            <p className="description">In the heart of Manchester, Raven labs designed and fabricated the entrance to Cat Alley. In this pro bono project, </p>
+                                            <p className="description">In the heart of Manchester, Raven labs designed and fabricated the entrance to Cat Alley. In this pro bono project, we worked with the city of Manchester and two Artists to bring this public art gallery to life </p>
                                         </div>
                                     </div>
                                 </div>

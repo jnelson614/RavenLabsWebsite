@@ -18,7 +18,7 @@ const Service = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Services</h2>
+                                    <h2 className="title textWhite">Services</h2>
                                 </div>
                             </div>
                         </div>
@@ -42,8 +42,8 @@ const Service = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Mechanical Design</h2>
-                                            <p className="description">From Modeling to Prototyping, our skills in CAD tools will bring your design to life. 
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </p>
+                                            <p className="description">From Modeling to Prototyping, our skills in CAD tools will bring your design to life. We dont just stop at modeling, from there we can perform thermo, stress, and fluid dynamics test to ensure your design will meet your problems challenges.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,7 +129,8 @@ const Service = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Prototyping</h2>
-                                            <p className="description">Making any idea come a reality. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                                            <p className="description">Making any idea come a reality. With an army of 3D printers ranging in all sizes, we can quickly prototype your design for field testing and quick iterations. If 3D printing doesn't fit your needs, we have access to to CNC machines, laser cutter, lathes, and injection moldings
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

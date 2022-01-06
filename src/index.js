@@ -7,12 +7,8 @@ import './index.scss';
 
 import PageScrollTop from './component/PageScrollTop';
 
-// Home layout
 import Home from './home/Home';
-import Projects from './home/Projects';
-
-
-// Element Layout
+import Projects from './elements/Projects';
 import Service from "./elements/Service";
 import Helium from "./elements/Helium";
 import About from "./elements/About";
