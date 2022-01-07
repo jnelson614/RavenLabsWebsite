@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
+import { FiHeadphones , FiMail , FiMapPin, FiChevronUp } from "react-icons/fi";
 import GoogleMapReact from 'google-map-react';
 import ScrollToTop from 'react-scroll-up';
-import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
+import GoogleMaps from "../component/GoogleMap";
 
 const AnyReactComponent = ({ text }) =>
     <div className="map-pin">
-        <FiMapPin />
+        <FiMapPin  size={52}/>
     </div>
 
 class Contact extends Component{
@@ -101,17 +101,18 @@ class Contact extends Component{
                 {/* Start Contact Map  */}
                 <div className="rn-contact-map-area position-relative">
                     <div style={{ height: '650px', width: '100%' }}>
-                        <GoogleMapReact
+                        <GoogleMaps latitude={42.991276388151206} longitude={-71.46267365636591}/>
+                        {/* <GoogleMapReact
                         bootstrapURLKeys={{ key: "AIzaSyB0UNE15owolCqv_vCC4usVLxSdoQh1O-g" }}
                         defaultCenter={this.props.center}
                         defaultZoom={this.props.zoom}
                         >
                         <AnyReactComponent
-                            lat={42.99128}
-                            lng={-71.46265}
+                            lat={this.props.center.lat}
+                            lng={this.props.center.lng}
                             text="Raven Labs HQ"
                         />
-                        </GoogleMapReact>
+                        </GoogleMapReact> */}
                     </div>
                 </div>
                 {/* End Contact Map  */}
