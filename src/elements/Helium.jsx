@@ -73,7 +73,7 @@ class Helium extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title textWhite">Helium</h2>
-                                    <p>Developing devices for the People's Network</p>
+                                    {/* <p>Developing devices for the People's Network</p> */}
                                 </div>
                             </div>
                         </div>

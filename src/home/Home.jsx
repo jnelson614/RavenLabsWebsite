@@ -45,8 +45,6 @@ class Home extends Component{
 
                                             <h2>Engineering</h2>
                                             </h1>
-                                            {/* {value.description ? <p className="description">{value.description}</p> : ''}
-                                            {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''} */}
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +62,7 @@ class Home extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title service-style--3 text-center mb--30 mb_sm--0">
-                                    <h2 className="title">Our Service</h2>
+                                    <h2 className="title">Our Services</h2>
                                     <p>A handcrafted team of skilled professionals with a combined 50 years of professional experience</p>
                                 </div>
                             </div>

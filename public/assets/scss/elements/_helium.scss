@@ -619,7 +619,10 @@
 
 .portfolio-sacousel-inner ,
 .rn-slick-dot {
-    .slick-dots {
+    p{
+        text-align: left;
+    }
+    .slick-dots {   
         bottom: -60px;
         @media #{$large-mobile} {
             bottom: -50px; 
