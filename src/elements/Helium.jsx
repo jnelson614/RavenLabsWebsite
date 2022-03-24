@@ -114,7 +114,7 @@ class Helium extends Component{
                                                     <div className="content">
                                                         <div className="inner">
                                                             <p>{value.category}</p>
-                                                            <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                                            <h4><a href="/services">{value.title}</a></h4>
                                                         </div>
                                                     </div>
                                                 </div>

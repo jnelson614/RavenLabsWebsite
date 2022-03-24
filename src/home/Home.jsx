@@ -36,7 +36,7 @@ class Home extends Component{
                                     <div className="col-lg-12">
                                         <div className="inner text-left">
                                             <h1 className="title">Specializing in<br/>
-                                            <TextLoop>
+                                            <TextLoop interval={1500}>
                                                 <span> Mechanical</span>
                                                 <span> Software</span>
                                                 <span> Human Factors</span>
