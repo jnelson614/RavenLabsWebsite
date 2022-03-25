@@ -104,7 +104,7 @@ const Service = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Front End Development</h2>
-                                            <p className="description">Sleek UI's and intuitive designs. Raven Labs has developed console applications in WPF (C#), Tkinter (Python), QT (Python) for medical and research devices and a
+                                            <p className="description">Sleek UI's and intuitive designs. Raven Labs has developed console applications in WPF (C#), DearPyGUI (Python), Tkinter (Python), QT (Python) for medical and research devices and a
                                             handful of web based application. With the ability to leverage top tier UX designers, Raven labs can help craft and develop your next application </p>
                                         </div>
                                     </div>

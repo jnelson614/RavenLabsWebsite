@@ -666,8 +666,16 @@ Slick Animation For Slider
 }
 
 .bg_image--16 {
+    background-position: bottom;
     @media #{$sm-layout} {
-        background-position: 71% center;
+        background-position: 71% top;
+    }
+}
+
+.bg_image--23 {
+    background-position: bottom;
+    @media #{$sm-layout} {
+        background-position: 71% top;
     }
 }
 

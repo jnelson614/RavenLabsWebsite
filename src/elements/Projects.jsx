@@ -27,8 +27,7 @@ const Projects = () => {
                 </div>
                 {/* End Breadcrump Area */}
             
-
-            {/* Start RX Imager Area */}
+            {/* Start Deka Syringe Area */}
             <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
@@ -36,14 +35,14 @@ const Projects = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5 order-1 order-lg-1">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/pills.jpeg" alt="prescription pills"/>
+                                        <img className="w-110" src="/assets/images/Syringe.jpg" alt="Syringe"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7 order-2 order-lg-2" >
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">Remote Pharmacist </h2>
-                                            <p className="description">Raven Labs helped design, prototype, manufacture, and test an application that allows a Pharmacists to view and approve pending prescription orders remotely for a fortune 500 Company. </p>
+                                            <h2 className="title">Microliter Pump</h2>
+                                            <p className="description">A microliter accurate syringe pump system that was manufactured in house. This pump can perform drug delivery with variable bolus and dwell times over an extended period.  Use cases for this pump include extended biological nourishment delivery, and Oncology drug delivery. </p>
                                         </div>
                                         {/* <div className="row mt--30">
                                             <TabTwo tabStyle="tab-style--1" />
@@ -55,8 +54,6 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            
-            {/* End RX Imager Area */}
 
 
             {/* Start Particle accelerator area */}
@@ -89,9 +86,7 @@ const Projects = () => {
 
             {/* End Particle accelerator area */}
 
-
-            {/* Start monochrometer area */}
-
+            {/* Start RX Imager Area */}
             <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
@@ -99,15 +94,18 @@ const Projects = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5 order-1 order-lg-1">
                                     <div className="thumbnail">
-                                    <img className="w-100" src="/assets/images/light.jpg" alt="Light"/>
+                                        <img className="w-100" src="/assets/images/pills.jpeg" alt="prescription pills"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7 order-2 order-lg-2" >
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">Monochrometer</h2>
-                                            <p className="description">Developed the required tools for bringing a optical device prototype to market. Designed and implemented a control sequence utilizing stepper motors and enterprise sensor inputs to validate device specifications  prior to customer shipment.</p>
+                                            <h2 className="title">Remote Pharmacist </h2>
+                                            <p className="description">Raven Labs helped design, prototype, manufacture, and test an application that allows a Pharmacists to view and approve pending prescription orders remotely for a fortune 500 Company. </p>
                                         </div>
+                                        {/* <div className="row mt--30">
+                                            <TabTwo tabStyle="tab-style--1" />
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -116,7 +114,7 @@ const Projects = () => {
                 </div>
             </div>
             
-            {/* End monochrometer area */}
+            {/* End RX Imager Area */}
 
             {/* Start Mobility Bus area */}
 
@@ -204,6 +202,34 @@ const Projects = () => {
             </div>
             
             {/* End Cat alley area */}
+
+            {/* Start monochrometer area */}
+
+            <div id="about" className="fix">
+                <div className="about-area ptb--120  bg_color--1">
+                    <div className="about-wrapper">
+                        <div className="container">
+                            <div className="row row--35 align-items-center">
+                                <div className="col-lg-5 order-1 order-lg-1">
+                                    <div className="thumbnail">
+                                    <img className="w-100" src="/assets/images/light.jpg" alt="Light"/>
+                                    </div>
+                                </div>
+                                <div className="col-lg-7 order-2 order-lg-2" >
+                                    <div className="about-inner inner">
+                                        <div className="section-title">
+                                            <h2 className="title">Monochrometer</h2>
+                                            <p className="description">Developed the required tools for bringing a optical device prototype to market. Designed and implemented a control sequence utilizing stepper motors and enterprise sensor inputs to validate device specifications  prior to customer shipment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            {/* End monochrometer area */}
 
             <FooterTwo />
             {/* Start Back To Top */}
