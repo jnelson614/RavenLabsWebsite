@@ -6,6 +6,8 @@ import { slickDot } from "../page-demo/script";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
+import { BrowserRouter, Switch, Route  } from 'react-router-dom';
+
 
 
 const list = [
@@ -53,23 +55,18 @@ class Career extends Component{
                 {/* End Breadcrump Area */}
 
                 {/* Start About Area  */}
-                <div className="rn-about-area ptb--120 bg_color--1">
-                    <div className="rn-about-wrapper">
-                        <div className="container">
-                            <div className="row row--35 align-items-center">
-                                <div className="col-lg-5">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/careers/WorkingTogether.png" alt="Working Together"/>
-                                    </div>
+                <div className="ptb--120 bg_color--1">
+                    <div className="container">
+                        <div className="row row--35 align-items-center">
+                            <div className="col-lg-5">
+                                <div className="thumbnail">
+                                    <img className="w-100" src="/assets/images/careers/WorkingTogether.png" alt="Working Together"/>
                                 </div>
-                                <div className="col-lg-7">
-                                    <div className="about-inner inner">
-                                        <div className="section-title">
-                                            <h2 className="title">{title}</h2>
-                                            <p className="description">{description}</p>
-                                        </div>
-                                    
-                                    </div>
+                            </div>
+                            <div className="col-lg-7 about-inner">
+                                <div className="section-title">
+                                    <h2 className="title">{title}</h2>
+                                    <p className="description">{description}</p>
                                 </div>
                             </div>
                         </div>
@@ -104,9 +101,10 @@ class Career extends Component{
                                                     <div className="content">
                                                         <div className="inner">
                                                             <p>{value.category}</p>
-                                                            <h4><a href="/services">{value.title}</a></h4>
+                                                            <h4><a href="/mechanical-job-1">{value.title}</a></h4>
                                                         </div>
                                                     </div>
+                                                    <Route className="link-overlay" to="/mechanical-job-1"></Route>
                                                 </div>
                                             ))}
                                         </Slider>

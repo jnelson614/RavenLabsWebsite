@@ -27,27 +27,25 @@ const Projects = () => {
                 </div>
                 {/* End Breadcrump Area */}
             
-            {/* Start Deka Syringe Area */}
+            {/* Start Microliter Pump */}
             <div id="about" className="fix">
-                <div className="about-area ptb--120  bg_color--1">
-                    <div className="about-wrapper">
-                        <div className="container">
-                            <div className="row row--35 align-items-center">
-                                <div className="col-lg-5 order-1 order-lg-1">
-                                    <div className="thumbnail">
-                                        <img className="w-110" src="/assets/images/Syringe.jpg" alt="Syringe"/>
-                                    </div>
+                <div className="ptb--120  bg_color--1">
+                    <div className="container">
+                        <div className="row row--35 align-items-center">
+                            <div className="col-lg-5 order-1 order-lg-1">
+                                <div className="thumbnail">
+                                    <img className="w-110" src="/assets/images/Syringe.jpg" alt="Syringe"/>
                                 </div>
-                                <div className="col-lg-7 order-2 order-lg-2" >
-                                    <div className="about-inner inner">
-                                        <div className="section-title">
-                                            <h2 className="title">Microliter Pump</h2>
-                                            <p className="description">A microliter accurate syringe pump system that was manufactured in house. This pump can perform drug delivery with variable bolus and dwell times over an extended period.  Use cases for this pump include extended biological nourishment delivery, and Oncology drug delivery. </p>
-                                        </div>
-                                        {/* <div className="row mt--30">
-                                            <TabTwo tabStyle="tab-style--1" />
-                                        </div> */}
+                            </div>
+                            <div className="col-lg-7 order-2 order-lg-2" >
+                                <div className="about-inner inner">
+                                    <div className="section-title">
+                                        <h2 className="title">Microliter Pump</h2>
+                                        <p className="description">A microliter accurate syringe pump system that was manufactured in house. This pump can perform drug delivery with variable bolus and dwell times over an extended period.  Use cases for this pump include extended biological nourishment delivery, and Oncology drug delivery. </p>
                                     </div>
+                                    {/* <div className="row mt--30">
+                                        <TabTwo tabStyle="tab-style--1" />
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -59,23 +57,21 @@ const Projects = () => {
             {/* Start Particle accelerator area */}
 
             <div id="about" className="fix">
-                <div className="about-area ptb--120  bg_color--1">
-                    <div className="about-wrapper">
-                        <div className="container">
-                            <div className="row row--35 align-items-center">
-                                
-                                <div className="col-lg-7 order-2 order-lg-1" >
-                                    <div className="about-inner inner">
-                                        <div className="section-title">
-                                            <h2 className="title">Particle Accelerator </h2>
-                                            <p className="description">When legacy design collides with modern innovation, Raven Labs is the technology mediator. First, Raven Labs reversed engineered and documented components of a functioning particle accelerator assembled in the 1950's which were previously undocumented. Since then, Raven Labs has introduced design innovations within the particle accelerator to provide calibration sensor outputs, capacity to capture of higher energy isotopes, and reduce overall operating costs. </p>
-                                        </div>
+                <div className="ptb--120  bg_color--1">
+                    <div className="container">
+                        <div className="row row--35 align-items-center">
+                            
+                            <div className="col-lg-7 order-2 order-lg-1" >
+                                <div className="about-inner inner">
+                                    <div className="section-title">
+                                        <h2 className="title">Particle Accelerator </h2>
+                                        <p className="description">When legacy design collides with modern innovation, Raven Labs is the technology mediator. First, Raven Labs reversed engineered and documented components of a functioning particle accelerator assembled in the 1950's which were previously undocumented. Since then, Raven Labs has introduced design innovations within the particle accelerator to provide calibration sensor outputs, capacity to capture of higher energy isotopes, and reduce overall operating costs. </p>
                                     </div>
                                 </div>
-                                <div className="col-lg-5 order-1 order-lg-2">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/atom.jpg" alt="Atom"/>
-                                    </div>
+                            </div>
+                            <div className="col-lg-5 order-1 order-lg-2">
+                                <div className="thumbnail">
+                                    <img className="w-100" src="/assets/images/atom.jpg" alt="Atom"/>
                                 </div>
                             </div>
                         </div>
