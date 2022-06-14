@@ -12,6 +12,7 @@ import Projects from './elements/Projects';
 import Service from "./elements/Service";
 import Helium from "./elements/Helium";
 import About from "./elements/About";
+import Career from "./elements/Career";
 import PersonalPortfolio from './elements/PersonalPortfolio';
 import Contact from "./elements/Contact";
 import error404 from "./elements/error404";
@@ -32,6 +33,7 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/helium`} component={Helium}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/careers`} component={Career}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/syringe`} component={PersonalPortfolio}/>
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                         <Route component={error404}/>

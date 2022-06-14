@@ -69,10 +69,11 @@ class Header extends Component{
                                 <li ><Link to="/projects" >Projects</Link></li>
 
                                 <li><Link to="/helium" >Helium</Link></li>
+                                <li><Link to="/careers" >Careers</Link></li>
                                 <li><Link to="/about" >About</Link></li>
 
                                 
-                                <li><Link to="/contact" >Contact</Link></li>
+                                <li><Link to="/contact" >Contact</Link></li>x
                             </ul>
                         </nav>
 
