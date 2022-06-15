@@ -81,7 +81,7 @@ class Helium extends Component{
                 </div>
                 {/* End Breadcrump Area */}
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pt--60 pb--140 bg_color--5">
+                <div className="pt--60 pb--140 bg_color--5">
                     <div className="rn-slick-dot">
                         <div className="container">
                             <div className="row">

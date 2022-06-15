@@ -45,7 +45,7 @@ class JuniorMechanical extends Component{
 
                 {/* Start Microliter Pump */}
             <div className="fix">
-                <div className="ptb--120  bg_color--1">
+                <div className="pt--120 pb--30 bg_color--1">
                     <div className="container">
                         <div className="row row--35 align-items-center">
                             <div className="col-lg-5 order-1 order-lg-1">
@@ -70,12 +70,13 @@ class JuniorMechanical extends Component{
                                 </div>
                             </div>
                         </div>
-                        <div className="rn-contact-top-area ptb--120 bg_color--5">
+                        <div className="jobs">
                             <div className="container">
                                 <div className="row">
-                                    {/* Start Single Address  */}
-                                    <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt_sm--100 align-items-right">
-                                        <div className="rn-address">
+
+                                    <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt_sm--100"/>
+                                    <div className="col-lg-4 col-md-6 col-sm-12 col-12 mt_sm--100">
+                                        <div className="rn-address order-2 order-lg-2">
                                             <div className="icon">
                                                 <FiMail />
                                             </div>

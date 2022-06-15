@@ -6,25 +6,27 @@ import { slickDot } from "../page-demo/script";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
-import { BrowserRouter, Switch, Route  } from 'react-router-dom';
-
+import { Link  } from 'react-router-dom';
 
 
 const list = [
     {
         image: 'image-1',
         category: 'Engineer',
-        title: 'Junior Mechanical Engineer'
+        title: 'Junior Mechanical Engineer',
+        url: '/mechanical-job-1'
     },
     {
         image: 'image-2',
         category: 'Intern',
-        title: 'Software Engineering Intern'
+        title: 'Software Engineering Intern',
+        url: '/mechanical-job-1'
     },
     {
         image: 'image-3',
         category: 'Intern',
-        title: 'Mechanical Engineering Intern'
+        title: 'Mechanical Engineering Intern',
+        url: '/mechanical-job-1'
     }
    
 ]
@@ -33,7 +35,7 @@ class Career extends Component{
     render(){
         
         let title = 'Come work with us!',
-        description = 'Bored of working on the same project month after month? Have you not not been learning any new skiils or technologies at your current Job? Come work at Raven Labs where each day is different. Most projects Raven Labs work on is a 3-6 month timeline. Our Employees dont just work in one field either. We like our employees to jump around and learn new skills.   '
+        description = 'Bored of working on the same project month after month? Have you not not been learning any new skiils or technologies at your current Job? Come work at Raven Labs where each day is different. Most projects Raven Labs work on is on a 3-6 month timeline. Our Employees dont just work in one field either. We like our employees to jump around and learn new skills.'
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='Careers' />
@@ -101,10 +103,10 @@ class Career extends Component{
                                                     <div className="content">
                                                         <div className="inner">
                                                             <p>{value.category}</p>
-                                                            <h4><a href="/mechanical-job-1">{value.title}</a></h4>
+                                                            <h4><a href={`${value.url}`}>{value.title}</a></h4>
                                                         </div>
                                                     </div>
-                                                    <Route className="link-overlay" to="/mechanical-job-1"></Route>
+                                                    <Link className="link-overlay" to= {`${value.url}`}></Link>
                                                 </div>
                                             ))}
                                         </Slider>

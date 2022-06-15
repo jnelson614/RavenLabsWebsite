@@ -4,6 +4,7 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 import Helmet from "../component/common/Helmet";
+import { Link  } from 'react-router-dom';
 
 
 const Projects = () => {
@@ -43,11 +44,9 @@ const Projects = () => {
                                         <h2 className="title">Microliter Pump</h2>
                                         <p className="description">A microliter accurate syringe pump system that was manufactured in house. This pump can perform drug delivery with variable bolus and dwell times over an extended period.  Use cases for this pump include extended biological nourishment delivery, and Oncology drug delivery. </p>
                                     </div>
-                                    {/* <div className="row mt--30">
-                                        <TabTwo tabStyle="tab-style--1" />
-                                    </div> */}
                                 </div>
                             </div>
+                            <Link className="link-overlay" to='/syringe'></Link>
                         </div>
                     </div>
                 </div>
