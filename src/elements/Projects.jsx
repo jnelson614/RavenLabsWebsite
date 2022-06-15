@@ -46,7 +46,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            <Link className="link-overlay" to='/syringe'></Link>
+                            <Link className="link-overlay" to='/projects/syringe'></Link>
                         </div>
                     </div>
                 </div>

@@ -86,7 +86,6 @@ class JuniorMechanical extends Component{
                                             </div>
                                         </div>
                                     </div>
-                                    {/* End Single Address  */}
                                 </div>
                             </div>
                         </div>
