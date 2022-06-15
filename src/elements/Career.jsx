@@ -14,19 +14,19 @@ const list = [
         image: 'image-1',
         category: 'Engineer',
         title: 'Junior Mechanical Engineer',
-        url: '/mechanical-job-1'
+        url: '/careers/mechanical-job-1'
     },
     {
         image: 'image-2',
         category: 'Intern',
         title: 'Software Engineering Intern',
-        url: '/mechanical-job-1'
+        url: '/careers/software-job-1'
     },
     {
         image: 'image-3',
         category: 'Intern',
         title: 'Mechanical Engineering Intern',
-        url: '/mechanical-job-1'
+        url: '/careers/mechanical-job-2'
     }
    
 ]

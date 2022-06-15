@@ -20,6 +20,8 @@ import error404 from "./elements/error404";
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import ComingSoon from './elements/ComingSoon';
+import MechanicalIntern from './elements/MechanicalIntern';
+import SoftwareIntern from './elements/SoftwareIntern';
 
 class Root extends Component{
     render(){
@@ -35,7 +37,9 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/careers`} component={Career}/>
-                        <Route exact path={`${process.env.PUBLIC_URL}/mechanical-job-1`} component={JuniorMechanicaL}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/careers/mechanical-job-1`} component={JuniorMechanicaL}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/careers/mechanical-job-2`} component={MechanicalIntern}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/careers/software-job-1`} component={SoftwareIntern}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/projects/syringe`} component={PersonalPortfolio}/>
                         <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
                         <Route component={error404}/>
