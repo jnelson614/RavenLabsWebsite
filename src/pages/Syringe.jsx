@@ -10,7 +10,7 @@ class Syringe extends Component{
         image = "/assets/images/syringeOnly.jpg",
         alt = "Syringe",
         teamMembers =  "Grant Peret, Bob Peret, Jeff Nelson",
-        client = "Deka Research",
+        client = "Under NDA",
         timespan = "Feb 2022 - March 2022",
         hardware = [
             {
