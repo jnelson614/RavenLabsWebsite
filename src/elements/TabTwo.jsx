@@ -15,7 +15,7 @@ class TabsTwo extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <Tabs>
-                                    <TabList  className={`${tabStyle}`}>
+                                    <TabList className={`${tabStyle}`}>
                                         <Tab>{tab1}</Tab>
                                         <Tab>{tab2}</Tab>
                                     </TabList>
@@ -24,16 +24,16 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">Team members</a>
-                                                    Grant Peret, Bob Peret, Jeff Nelson
+                                                    <div>Team members</div>
+                                                    {this.props.teamMembers}
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Client</a>
-                                                    Deka Research
+                                                    <div>Client</div>
+                                                    {this.props.client}
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Project Timespan</a>
-                                                    Feb 2022 - March 2022
+                                                    <div href="/service">Project Timespan</div>
+                                                    {this.props.timespan}
                                                 </li>
                                             </ul>   
                                         </div>
@@ -42,18 +42,15 @@ class TabsTwo extends Component{
                                     <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
-                                               <li>
-                                                   <a href="/service">STM-F4REE <span>- Microcontroller</span></a>
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Prusa M32 <span>- Stepper Motor</span></a>
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Renshall 2211 <span>- Encoder</span></a>
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Raspberry Pi + Touch Screen <span>- Display</span></a>
-                                               </li>
+                                                {this.props.hardware.map((value , index) => (
+                                                    <div key={index}>
+                                                        <li>
+                                                            <div>
+                                                                {value.model} <span>- {value.name} </span>
+                                                            </div>
+                                                        </li>
+                                                    </div>               
+                                                ))}
                                            </ul>
                                        </div>
                                     </TabPanel>

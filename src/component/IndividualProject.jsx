@@ -6,28 +6,15 @@ import FooterTwo from "../component/footer/FooterTwo"
 import TabTwo from "../elements/TabTwo";
 import Helmet from "../component/common/Helmet";
 
-
-const SlideList = [
-    {
-        textPosition: 'text-left',
-        category: 'Freelance digital designer',
-        title: 'Hello, I’m <span>Nancy</span> Welcome to my World.',
-        description: '',
-        buttonText: '',
-        buttonLink: ''
-    }
-]
-class PersonalPortfolio extends Component{
+class IndividualProject extends Component{
     render(){
-        let title = 'Microliter Syringe Pump',
-        description = 'A microliter accurate syringe pump system that was manufactured in house. This pump can perform drug delivery with variable bolus and dwell times over an extended period.  Use cases for this pump include extended biological nourishment delivery and oncology drug delivery.';
         return(
             <Fragment> 
-                <Helmet pageTitle="Microliter pump" />
+                <Helmet pageTitle={this.props.pageTitle} />
                 
                 <Header homeLink="/"/>
                 
-                {/* Start Breadcrump Area */}
+                {/* Start Breadcrumb Area */}
                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="7">
                     <div className="container">
                         <div className="row">
@@ -39,8 +26,7 @@ class PersonalPortfolio extends Component{
                         </div>
                     </div>
                 </div>
-                {/* End Breadcrump Area */}
-                {/* End Slider Area   */}
+                {/* End Breadcrumb Area */}
 
                 {/* Start About Area */}
                 <div className="about-area about-position-top pb--120  bg_color--1">
@@ -49,17 +35,17 @@ class PersonalPortfolio extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/syringeOnly.jpg" alt="About Images"/>
+                                        <img className="w-100" src={this.props.image} alt={this.props.alt}/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
                                     <div className="about-inner inner pt--100">
                                         <div className="section-title">
-                                            <h2 className="title">{title}</h2>
-                                            <p className="description">{description}</p>
+                                            <h2 className="title">{this.props.title}</h2>
+                                            <p className="description">{this.props.description}</p>
                                         </div>
                                         <div className="row mt--30">
-                                            <TabTwo tabStyle="tab-style--1" />
+                                            <TabTwo teamMembers={this.props.teamMembers} client={this.props.client} timespan={this.props.timespan} hardware={this.props.hardware} tabStyle="tab-style--1" />
                                         </div>
                                     </div>
                                 </div>
@@ -84,4 +70,5 @@ class PersonalPortfolio extends Component{
     }
 }
 
-export default PersonalPortfolio;
+
+export default IndividualProject;

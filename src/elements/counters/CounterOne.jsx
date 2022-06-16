@@ -14,11 +14,11 @@ class CounterOne extends Component{
     render(){
         let Data = [
             {
-                countNum : 3500,
+                countNum : 4000,
                 countTitle: 'Billable hours Raven Labs has delivered to clients',
             },
             {
-                countNum : 12,
+                countNum : 15,
                 countTitle: 'Individual Projects Raven Labs has taken on',
             },
             {

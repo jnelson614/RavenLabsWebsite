@@ -63,9 +63,7 @@ export const slickDot = {
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: true,
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    arrows: false,
     responsive: [{
         breakpoint: 800,
         settings: {

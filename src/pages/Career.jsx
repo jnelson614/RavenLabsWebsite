@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import ScrollToTop from 'react-scroll-up';
 import Slider from "react-slick";
-import { slickDot } from "../page-demo/script";
+import { slickDot } from "./page-demo/script";
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
@@ -110,20 +110,6 @@ class Career extends Component{
                                                                 <h4><a href={`${value.url}`}>{value.title}</a></h4>
                                                             </div>
                                                     </div>
-                                                    {/* <div className="thumbnail-inner">
-                                                        <div className={`thumbnail ${value.image}`}></div>
-                                                        <div className={`bg-blr-image ${value.image}`}></div>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4 className="title">Learn more</h4>
-                                                        <p className="designation">{value.tile}</p>
-                                                    </div>
-                                                    <div className="content">
-                                                        <div className="inner">
-                                                            <p>{value.category}</p>
-                                                            <h4><a href={`${value.url}`}>{value.title}</a></h4>
-                                                        </div>
-                                                    </div> */}
                                                     <Link className="link-overlay" to= {`${value.url}`}></Link>
                                                 </div>
                                             ))}
