@@ -45,12 +45,12 @@ const Projects = () => {
                                         <p className="description">A microliter accurate syringe pump system that was manufactured in house. This pump can perform drug delivery with variable bolus and dwell times over an extended period.  Use cases for this pump include extended biological nourishment delivery, and Oncology drug delivery. </p>
                                     </div>
                                     <div className="pt--20">
-                                        <a className=" rn-button-style--2" href="/contact"><span>Learn More</span></a>
+                                        <a className=" rn-button-style--2" href="/projects/syringe"><span>Learn More</span></a>
                                     </div>
                                 </div>
                             </div>
                             
-                            <Link className="link-overlay" to='/projects/syringe'></Link>
+                            {/* <Link className="link-overlay" to='/projects/syringe'></Link> */}
                         </div>
                     </div>
                 </div>
