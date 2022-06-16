@@ -11,19 +11,19 @@ import { Link  } from 'react-router-dom';
 
 const list = [
     {
-        image: 'image-1',
+        image: '/assets/images/careers/mechanical1.jpg',
         category: 'Engineer',
         title: 'Junior Mechanical Engineer',
         url: '/careers/mechanical-job-1'
     },
     {
-        image: 'image-2',
+        image: '/assets/images/careers/software1.jpg',
         category: 'Intern',
         title: 'Software Engineering Intern',
         url: '/careers/software-job-1'
     },
     {
-        image: 'image-3',
+        image: '/assets/images/careers/software3.jpg',
         category: 'Intern',
         title: 'Mechanical Engineering Intern',
         url: '/careers/mechanical-job-2'
@@ -96,16 +96,34 @@ class Career extends Component{
                                         <Slider {...slickDot}>
                                             {list.map((value , index) => (
                                                 <div className="careers" key={index}>
-                                                    <div className="thumbnail-inner">
+
+                                                        <div className="thumbnail">
+                                                            <img className="w-100" src={value.image}/>
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4 className="title">Click to Learn More</h4>
+                                                            <p className="designation">{value.title}</p>
+                                                        </div>
+                                                        <div className="body_content">
+                                                            <div className="inner">
+                                                                <p>{value.category}</p>
+                                                                <h4><a href={`${value.url}`}>{value.title}</a></h4>
+                                                            </div>
+                                                    </div>
+                                                    {/* <div className="thumbnail-inner">
                                                         <div className={`thumbnail ${value.image}`}></div>
                                                         <div className={`bg-blr-image ${value.image}`}></div>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4 className="title">Learn more</h4>
+                                                        <p className="designation">{value.tile}</p>
                                                     </div>
                                                     <div className="content">
                                                         <div className="inner">
                                                             <p>{value.category}</p>
                                                             <h4><a href={`${value.url}`}>{value.title}</a></h4>
                                                         </div>
-                                                    </div>
+                                                    </div> */}
                                                     <Link className="link-overlay" to= {`${value.url}`}></Link>
                                                 </div>
                                             ))}

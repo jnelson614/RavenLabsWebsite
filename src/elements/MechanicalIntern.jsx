@@ -60,10 +60,10 @@ class MechanicalIntern extends Component{
                                                     Solidworks or other CAD modeling Software
                                                 </li>
                                                 <li>
-                                                    Something
+                                                    Hands on experience with mechanical assemblies 
                                                 </li>
                                                 <li>
-                                                    Something
+                                                    Curiosity and desire to be technically challenged
                                                 </li>
                                             </ul>   
                                             If you think you would be a good candidate. Send us your resume along with a brief introduction about yourself to the email below.</p>

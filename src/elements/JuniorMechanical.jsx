@@ -53,7 +53,7 @@ class JuniorMechanical extends Component{
                                 <div className="col-lg-7 order-2 order-lg-2" >
                                     <div className="about-inner inner">
                                         <div className="section-title">
-                                            <h2 className="title">Jr. Mechanical Engineer</h2>
+                                            <h2 className="title">Junior Mechanical Engineer</h2>
                                             <p className="description">We are looking for a young motivated individual who wants to jump start their mechanical engineering career. We are looking for candidates who have a B.S. degree in Engineering and have experience in some of the following fields.
                                             
                                             <ul>
@@ -61,10 +61,10 @@ class JuniorMechanical extends Component{
                                                     Solidworks or other CAD modeling Software
                                                 </li>
                                                 <li>
-                                                    Something
+                                                    Hands on experience with mechanical assemblies 
                                                 </li>
                                                 <li>
-                                                    Something
+                                                    Curiosity and desire to be technically challenged
                                                 </li>
                                             </ul>   
                                             If you think you would be a good candidate. Send us your resume along with a brief introduction about yourself to the email below.</p>
