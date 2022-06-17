@@ -8,6 +8,7 @@ class Syringe extends Component{
         pageTitle = "Microliter Pump",
         description = 'A microliter accurate syringe pump system that was manufactured in house. This pump can perform drug delivery with variable bolus and dwell times over an extended period.  Use cases for this pump include extended biological nourishment delivery and oncology drug delivery.',
         image = "/assets/images/syringeOnly.jpg",
+        video = '',
         alt = "Syringe",
         teamMembers =  "Grant Peret, Bob Peret, Jeff Nelson",
         client = "Deka Research",
@@ -34,7 +35,7 @@ class Syringe extends Component{
 
         return(
             <Fragment> 
-                <IndividualProject title={title} pageTitle={pageTitle} description={description} image={image} alt={alt} teamMembers={teamMembers} client={client} timespan={timespan} hardware={hardware}/>
+                <IndividualProject title={title} pageTitle={pageTitle} description={description} image={image} alt={alt} teamMembers={teamMembers} client={client} timespan={timespan} hardware={hardware} video={video}/>
             </Fragment>
         )
     }

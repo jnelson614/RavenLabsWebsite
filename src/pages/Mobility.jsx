@@ -8,6 +8,7 @@ class Mobility extends Component{
         pageTitle = "Mobility Bus",
         description = 'In partnership with Mobius Mobility, the Raven Labs mechanical team designed and fabricated a wholly custom bus. Given the purpose to deliver iBOTs and train veterans throughout the country a complete overhaul was required. The redesign includes an oversized slide out, featuring a human elevator and retractable stairs. The cosmetically upgraded interior also features an iBOT service center, classroom training area and storage for 5 iBOTs. The Mobility Bus successfully completed its maiden voyage tour traveling throughout the US in Summer 2020.',
         image = '/assets/images/mobility-bus-3.JPG',
+        video = '', 
         alt = "Mobius Mobility",
         teamMembers =  "Grant Peret",
         client = "Deka Research",
@@ -38,7 +39,7 @@ class Mobility extends Component{
 
         return(
             <Fragment> 
-                <IndividualProject title={title} pageTitle={pageTitle} description={description} image={image} alt={alt} teamMembers={teamMembers} client={client} timespan={timespan} hardware={hardware}/>
+                <IndividualProject title={title} pageTitle={pageTitle} description={description} image={image} alt={alt} teamMembers={teamMembers} client={client} timespan={timespan} hardware={hardware} video={video}/>
             </Fragment>
         )
     }

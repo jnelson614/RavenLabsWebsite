@@ -1,10 +1,11 @@
 import React, { Component , Fragment } from "react";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo"
-import TabTwo from "../elements/TabTwo";
-import Helmet from "../component/common/Helmet";
+import Header from "./Header";
+import FooterTwo from "./FooterTwo"
+import TabTwo from "./ProjectDetails";
+import Helmet from "./Helmet";
+import { VideoTag } from "react-video-tag";
 
 class IndividualProject extends Component{
     render(){
@@ -35,7 +36,11 @@ class IndividualProject extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src={this.props.image} alt={this.props.alt}/>
+                                        {this.props.video && 
+                                        <VideoTag className="w-100" autoPlay={`${true}`} muted={`${true}`} playsInline={`${true}`} loop={`${true}`}  src={`${"/assets/images/digital-sign.MOV"}`}/>}
+
+                                        {this.props.image && 
+                                        <img className="w-100" src={this.props.image} alt={this.props.alt}/> }
                                     </div>
                                 </div>
                                 <div className="col-lg-7">

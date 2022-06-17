@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
+import PageHelmet from "../component/Helmet";
 import ScrollToTop from 'react-scroll-up';
 import { FiMail , FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import Footer from "../component/footer/FooterTwo";
+import Header from "../component/Header";
+import Footer from "../component/FooterTwo";
 
 
 class MechanicalIntern extends Component{

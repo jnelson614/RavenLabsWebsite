@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
+import PageHelmet from "../component/Helmet";
 import { FiHeadphones , FiMail , FiMapPin, FiChevronUp } from "react-icons/fi";
-import GoogleMapReact from 'google-map-react';
 import ScrollToTop from 'react-scroll-up';
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
+import Header from "../component/Header";
+import FooterTwo from "../component/FooterTwo";
 import GoogleMaps from "../component/GoogleMap";
 
 const AnyReactComponent = ({ text }) =>

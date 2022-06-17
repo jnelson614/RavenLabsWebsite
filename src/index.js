@@ -23,6 +23,7 @@ import ComingSoon from './pages/ComingSoon';
 import MechanicalIntern from './pages/MechanicalIntern';
 import SoftwareIntern from './pages/SoftwareIntern';
 import Mobility from './pages/Mobility';
+import CatAlley from './pages/CatAlley';
 
 class Root extends Component{
     render(){
@@ -35,6 +36,7 @@ class Root extends Component{
                         <Route exact path={`${process.env.PUBLIC_URL}/projects`} component={Projects}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/projects/syringe`} component={Syringe}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/projects/mobility-bus`} component={Mobility}/>
+                        <Route exact path={`${process.env.PUBLIC_URL}/projects/cat-alley`} component={CatAlley}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/projects/helium`} component={Helium}/>
                         <Route exact path={`${process.env.PUBLIC_URL}/services`} component={Service}/>
                         

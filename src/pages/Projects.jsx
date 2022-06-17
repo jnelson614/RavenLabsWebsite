@@ -1,9 +1,9 @@
 import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
-import Helmet from "../component/common/Helmet";
+import Header from "../component/Header";
+import FooterTwo from "../component/FooterTwo";
+import Helmet from "../component/Helmet";
 import { Link } from 'react-router-dom';
 
 const list = [
@@ -29,6 +29,13 @@ const list = [
         url: '/projects/syringe'
     },
     {
+        image: '/assets/images/catalley.jpg',
+        description: "In the heart of Manchester, Raven labs designed and fabricated the entrance to Cat Alley. In this pro bono project, we worked with the city of Manchester and two Artists to bring this public art gallery to life",
+        title: 'Cat Alley',
+        alt: "Cat Alley Manchester, NH",
+        url: '/projects/cat-alley'
+    }, 
+    {
         image: '/assets/images/atom.jpg',
         description: "When legacy design collides with modern innovation, Raven Labs is the technology mediator. First, Raven Labs reversed engineered and documented components of a functioning particle accelerator assembled in the 1950's which were previously undocumented. Since then, Raven Labs has introduced design innovations within the particle accelerator to provide calibration sensor outputs, capacity to capture of higher energy isotopes, and reduce overall operating costs. ",
         title: 'Particle Accelerator',
@@ -47,13 +54,6 @@ const list = [
         description: "Developed front end application for a medical device that uses cutting edge technology to rapidly detect an array of blood diseases like Sepsis. This allow patients to get the treatment they need days before a regular blood test would come back",
         title: 'Rapid Blood Test',
         alt: "Blood Test",
-        url: ''
-    },
-    {
-        image: '/assets/images/catalley.jpg',
-        description: "In the heart of Manchester, Raven labs designed and fabricated the entrance to Cat Alley. In this pro bono project, we worked with the city of Manchester and two Artists to bring this public art gallery to life",
-        title: 'Cat Alley',
-        alt: "Cat Alley Manchester, NH",
         url: ''
     },
     {

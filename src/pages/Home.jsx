@@ -1,12 +1,12 @@
 import React, { Component , Fragment } from "react";
 import ScrollToTop from 'react-scroll-up';
-import ServiceList from "../elements/service/ServiceList";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
-import CallAction from "../elements/callaction/CallAction";
+import ServiceList from "../component/ServiceList";
+import Header from "../component/Header";
+import FooterTwo from "../component/FooterTwo";
+import CallAction from "../component/CallAction";
 import TextLoop from "react-text-loop";
 import { FiChevronUp } from "react-icons/fi";
-import Helmet from "../component/common/Helmet";
+import Helmet from "../component/Helmet";
 
 class Home extends Component{
     constructor (props) {

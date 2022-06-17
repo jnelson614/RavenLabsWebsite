@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
-import CounterOne from "../elements/counters/CounterOne";
+import PageHelmet from "../component/Helmet";
+import CounterOne from "../component/CounterOne";
 import { FaFacebookF , FaLinkedinIn } from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
+import Header from "../component/Header";
+import FooterTwo from "../component/FooterTwo";
 
 const EmployeeList = [
     {

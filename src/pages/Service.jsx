@@ -1,9 +1,9 @@
 import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
-import Helmet from "../component/common/Helmet";
+import Header from "../component/Header";
+import FooterTwo from "../component/FooterTwo";
+import Helmet from "../component/Helmet";
 
 
 const Service = () => {

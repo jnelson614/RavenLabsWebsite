@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import PageHelmet from "../component/common/Helmet";
+import PageHelmet from "../component/Helmet";
 import ScrollToTop from 'react-scroll-up';
 import Slider from "react-slick";
 import { slickDot } from "./page-demo/script";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
+import Header from "../component/Header";
+import FooterTwo from "../component/FooterTwo";
 import { Link  } from 'react-router-dom';
 
 
