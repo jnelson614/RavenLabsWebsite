@@ -42,7 +42,7 @@ const Service = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Mechanical Design</h2>
-                                            <p className="description">From Modeling to Prototyping, our skills in CAD tools will bring your design to life. We dont just stop at modeling, from there we can perform thermo, stress, and fluid dynamics test to ensure your design will meet your problems challenges.
+                                            <p className="description">Our expertise with CAD technologies allows us to model and prototype your idea with precision. In order to guarantee that our design will be capable of doing the job at hand, we run additional tests such as thermal, stress, and fluid dynamics once the modeling phase is complete.
                                             </p>
                                         </div>
                                     </div>
@@ -68,8 +68,7 @@ const Service = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Embedded Software </h2>
-                                            <p className="description"> Controlling hardware with software is one of Raven Labs expertise. Our engineers have 30 plus years developing embedded software for
-                                            medical, robotic, and IoT devices. Our test driven approach allows us to quickly iterate, optimize, and produce robust quality software that will safely run any hardware </p>
+                                            <p className="description"> One of Raven Labs' specialties is developing software that manages physical devices. Our team of developers has spent over three decades perfecting embedded software for use in healthcare, robotics, and the Internet of Things. Our test-driven development process ensures rapid iteration, optimization, and the delivery of high-quality software that can be used with confidence on any hardware. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -104,8 +103,7 @@ const Service = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Front End Development</h2>
-                                            <p className="description">Sleek UI's and intuitive designs. Raven Labs has developed console applications in WPF (C#), DearPyGUI (Python), Tkinter (Python), QT (Python) for medical and research devices and a
-                                            handful of web based application. With the ability to leverage top tier UX designers, Raven labs can help craft and develop your next application </p>
+                                            <p className="description">Clean interfaces and user-friendly layouts. For medical and research equipment, Raven Labs has created console apps in WPF (C#), DearPyGUI (Python), Tkinter (Python), and QT (Python), in addition to a small number of web-based applications. Raven Labs can assist with the creation and development of your next application by utilizing the services of industry-leading user experience designers.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -129,7 +127,7 @@ const Service = () => {
                                     <div className="about-inner inner">
                                         <div className="section-title">
                                             <h2 className="title">Prototyping</h2>
-                                            <p className="description">Making any idea come a reality. With an army of 3D printers ranging in all sizes, we can quickly prototype your design for field testing and quick iterations. If 3D printing doesn't fit your needs, we have access to to CNC machines, laser cutter, lathes, and injection moldings
+                                            <p className="description">The ability to materialize any vision. We have an army of 3D printers of several sizes at our disposal, so we can rapidly prototype your concept for testing in the field and iterative improvements. If 3D printing isn't a good fit, we also have access to CNC equipment, laser cutters, lathes, and injection molds.
                                             </p>
                                         </div>
                                     </div>

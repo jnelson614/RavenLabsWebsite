@@ -6,13 +6,13 @@ class JuniorMechanical extends Component{
     render(){
         let title = 'Junior Mechanical Engineer',
         pageTitle = "Junior Mechanical Position",
-        description = 'We are looking for a young motivated individual who wants to jump start their mechanical engineering career. We are looking for candidates who have a B.S. degree in Engineering and have experience in some of the following fields.',
+        description = 'Seeking an enthusiastic young individual eager to launch a successful career in mechanical engineering. We are searching for people with a Bachelor of Science in Engineering who also have experience in the following areas:',
         image = "/assets/images/careers/mechanical1.jpg",
         alt = "junior-mechanical-job",
         skills = [
-            "Solidworks or other CAD modeling Software",
+            "Use of a computer-aided design program (such as Solidworks)",
             "Hands on experience with mechanical assemblies",
-            "Curiosity and desire to be technically challenged"
+            "Interest in learning new things and a drive to master new skills"
         ];
 
         return(

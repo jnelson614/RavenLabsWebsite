@@ -5,11 +5,11 @@ class MechanicalIntern extends Component{
     render(){
         let title = 'Mechanical Engineering Intern',
         pageTitle = "Mechanical Intern Position",
-        description = 'We are looking for a young motivated individual who is ready to jump in to the world of Engineering. We are looking for candidates who are current exploring a B.S. degree in Engineering or other related field and have experience in some of the following fields.',
+        description = 'Seeking an enthusiastic young individual eager to launch a successful career in mechanical engineering. We are searching for people who are pursuing a Bachelor of Science degree in Engineering who also have experience in the following areas:',
         image = "/assets/images/careers/software3.jpg",
         alt = "mechanical-engineering-intern-job",
         skills = [
-            "Solidworks or other CAD modeling Software",
+            "Use of a computer-aided design program (such as Solidworks)",
             "Hands on experience with mechanical assemblies",
             "Curiosity and desire to be technically challenged"
         ];

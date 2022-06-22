@@ -35,7 +35,7 @@ class Career extends Component{
     render(){
         
         let title = 'Come work with us!',
-        description = 'Bored of working on the same project month after month? Have you not not been learning any new skiils or technologies at your current Job? Come work at Raven Labs where each day is different. Most projects Raven Labs work on is on a 3-6 month timeline. Our Employees dont just work in one field either. We like our employees to jump around and learn new skills.'
+        description = "Getting tired of working on the same project each month? Do you still employ the same techniques and equipment at your present position? Are you simply ready for something completely different? Come work at Raven Labs where every day is different if that's the case. A typical project at Raven Labs lasts between three and six months. Our staff members don't all specialize in the same thing. We encourage our staff to move around and pick up new abilities."
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='Careers' />

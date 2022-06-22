@@ -55,7 +55,7 @@ const EmployeeList = [
 class About extends Component{
     render(){
         let title = 'About Us',
-        description = 'Founded in 2019 by Grant Peret, Raven Labs started off in the basement of Grants childhood house 3D printing and modeling components for a few clients. After landing bigger and bigger clients, and with the addition of Jeff Nelson and Bob Peret in 2021, Raven Labs grew to a company offering services from mechanical design to software engineering ranging from automated warehouse solutions to medical devices. Raven Labs is now established in the heart of Manchester, NH. '
+        description = 'Grant Peret launched Raven Labs in the basement of his fathers home in 2019, initially 3D printing and designing parts for a small number of clients. With the hiring of Jeff Nelson and Bob Peret in 2021 and the acquisition of increasingly large clients, Raven Labs expanded into a business that provided mechanical design and software engineering services for anything from automated warehouse systems to medical equipment. The current location of Raven Labs in Manchester, New Hampshire. '
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
